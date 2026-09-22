@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AI Usage Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #0b0d12;
+    --panel: #151822;
+    --panel-border: #262b3a;
+    --text: #e8eaf0;
+    --text-dim: #9aa1b4;
+    --claude-accent: #d97757;
+    --codex-accent: #6ea8fe;
+    --grok-accent: #b98cff;
+    --danger: #ef5350;
+    --warn: #f0a94e;
+    --ok: #4caf7d;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    padding: 16px;
+  }
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  h1 { font-size: 1.4rem; margin: 0; }
+  .subtitle { color: var(--text-dim); font-size: 0.85rem; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--panel-border);
+    border-radius: 12px;
+    padding: 16px;
+  }
+  .panel h2 {
+    margin: 0 0 12px 0;
+    font-size: 1.05rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+  .dot.claude { background: var(--claude-accent); }
+  .dot.codex { background: var(--codex-accent); }
+  .dot.grok { background: var(--grok-accent); }
+  .stat-row { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
+  .stat {
+    background: #10131c;
+    border: 1px solid var(--panel-border);
+    border-radius: 10px;
+    padding: 10px 14px;
+    min-width: 120px;
+    flex: 1;
+  }
+  .stat .value { font-size: 1.3rem; font-weight: 600; }
+  .stat .label { font-size: 0.72rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.04em; }
+  canvas { max-height: 220px; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.82rem; margin-top: 10px; }
+  th, td { text-align: left; padding: 5px 6px; border-bottom: 1px solid var(--panel-border); }
+  th { color: var(--text-dim); font-weight: 500; font-size: 0.72rem; text-transform: uppercase; }
+  tr.heavy { background: rgba(239, 83, 80, 0.12); }
+  tr.heavy td:first-child::before { content: "⚠ "; color: var(--danger); }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
+  .muted { color: var(--text-dim); font-size: 0.8rem; }
+  .placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    color: var(--text-dim);
+    border: 1px dashed var(--panel-border);
+    border-radius: 10px;
+    font-size: 0.9rem;
+  }
+  .pill {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 600;
+  }
+  .pill.ok { background: rgba(76,175,125,0.18); color: var(--ok); }
+  .pill.warn { background: rgba(240,169,78,0.18); color: var(--warn); }
+  .pill.danger { background: rgba(239,83,80,0.18); color: var(--danger); }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>AI Usage Dashboard</h1>
+    <div class="subtitle" id="generatedAt">Loading…</div>
+  </div>
+  <div class="subtitle">Local logs only · refresh by running <code>./refresh.sh</code></div>
+</header>
+
+<div class="grid">
+
+  <div class="panel">
+    <h2><span class="dot claude"></span> Claude Code</h2>
+    <p class="muted">Cost figures are API-list-price equivalents computed from token counts — not actual billed spend if you're on a Pro/Max subscription rather than API billing.</p>
+    <div class="stat-row" id="claudeStats"></div>
+    <canvas id="claudeDailyChart"></canvas>
+  </div>
+
+  <div class="panel">
+    <h2><span class="dot codex"></span> Codex CLI</h2>
+    <div class="stat-row" id="codexStats"></div>
+    <canvas id="codexRateLimitChart"></canvas>
+  </div>
+
+</div>
+
+<div class="two-col">
+  <div class="panel">
+    <h2><span class="dot claude"></span> Claude — by project</h2>
+    <table id="claudeByProject"></table>
+  </div>
+  <div class="panel">
+    <h2><span class="dot claude"></span> Claude — by model</h2>
+    <table id="claudeByModel"></table>
+  </div>
+</div>
+
+<div class="two-col" style="margin-top:16px;">
+  <div class="panel">
+    <h2><span class="dot codex"></span> Codex — daily tokens</h2>
+    <canvas id="codexDailyChart"></canvas>
+  </div>
+  <div class="panel">
+    <h2><span class="dot codex"></span> Codex — heaviest sessions</h2>
+    <p class="muted">Flags single sessions that burned an outsized share of tokens — the usual cause of a one-day quota blowout.</p>
+    <table id="codexTopSessions"></table>
+  </div>
+</div>
+
+<div class="grid" style="margin-top:16px;">
+  <div class="panel">
+    <h2><span class="dot grok"></span> Grok</h2>
+    <div class="placeholder">Not wired up yet — coming when xAI usage collection is added.</div>
+  </div>
+</div>
+
+<script>
+const fmt = (n) => n == null ? "–" : Intl.NumberFormat("en-US", {notation: "compact", maximumFractionDigits: 1}).format(n);
+const fmtFull = (n) => n == null ? "–" : Intl.NumberFormat("en-US").format(n);
+const fmtUsd = (n) => n == null ? "–" : "$" + n.toFixed(2);
+
+function statTile(label, value) {
+  return `<div class="stat"><div class="value">${value}</div><div class="label">${label}</div></div>`;
+}
+
+function pillFor(pct) {
+  if (pct == null) return "";
+  if (pct >= 90) return `<span class="pill danger">${pct}%</span>`;
+  if (pct >= 60) return `<span class="pill warn">${pct}%</span>`;
+  return `<span class="pill ok">${pct}%</span>`;
+}
+
+async function main() {
+  const res = await fetch("./data/usage-data.json", { cache: "no-store" });
+  const data = await res.json();
+
+  document.getElementById("generatedAt").textContent =
+    "Generated " + new Date(data.generatedAt).toLocaleString();
+
+  renderClaude(data.claude);
+  renderCodex(data.codex);
+}
+
+function renderClaude(claude) {
+  const totalTokens = claude.daily.reduce((s, d) => s + d.tokens, 0);
+  const totalCost = claude.daily.reduce((s, d) => s + d.cost, 0);
+  const last7 = claude.daily.slice(-7);
+  const last7Cost = last7.reduce((s, d) => s + d.cost, 0);
+
+  document.getElementById("claudeStats").innerHTML =
+    statTile("Total tokens (logged days)", fmt(totalTokens)) +
+    statTile("Total (API-equiv. cost)", fmtUsd(totalCost)) +
+    statTile("Last 7d (API-equiv. cost)", fmtUsd(last7Cost));
+
+  new Chart(document.getElementById("claudeDailyChart"), {
+    type: "bar",
+    data: {
+      labels: claude.daily.map(d => d.date),
+      datasets: [{
+        label: "Est. cost ($)",
+        data: claude.daily.map(d => d.cost),
+        backgroundColor: "#d97757",
+      }],
+    },
+    options: {
+      responsive: true,
+      plugins: { legend: { display: false } },
+      scales: { y: { beginAtZero: true, ticks: { color: "#9aa1b4" } }, x: { ticks: { color: "#9aa1b4" } } },
+    },
+  });
+
+  const byProjectTable = document.getElementById("claudeByProject");
+  byProjectTable.innerHTML = "<tr><th>Project</th><th>Tokens</th></tr>" +
+    claude.byProject.slice(0, 12).map(p => `<tr><td>${p.project}</td><td>${fmt(p.tokens)}</td></tr>`).join("");
+
+  const byModelTable = document.getElementById("claudeByModel");
+  byModelTable.innerHTML = "<tr><th>Model</th><th>Tokens</th></tr>" +
+    claude.byModel.filter(m => m.tokens > 0).map(m => `<tr><td>${m.model}</td><td>${fmt(m.tokens)}</td></tr>`).join("");
+}
+
+function renderCodex(codex) {
+  const totalTokens = codex.daily.reduce((s, d) => s + d.tokens, 0);
+  const latestRate = codex.rateLimitHistory[codex.rateLimitHistory.length - 1];
+
+  document.getElementById("codexStats").innerHTML =
+    statTile("Total tokens (logged days)", fmt(totalTokens)) +
+    statTile("Current quota used", latestRate ? pillFor(latestRate.usedPercent) : "–") +
+    statTile("Plan", latestRate ? latestRate.planType : "–");
+
+  new Chart(document.getElementById("codexRateLimitChart"), {
+    type: "line",
+    data: {
+      labels: codex.rateLimitHistory.map(d => d.date),
+      datasets: [{
+        label: "Quota used (%)",
+        data: codex.rateLimitHistory.map(d => d.usedPercent),
+        borderColor: "#6ea8fe",
+        backgroundColor: "rgba(110,168,254,0.15)",
+        fill: true,
+        tension: 0.15,
+        pointRadius: 2,
+      }],
+    },
+    options: {
+      responsive: true,
+      plugins: { legend: { display: false } },
+      scales: {
+        y: { min: 0, max: 100, ticks: { color: "#9aa1b4" } },
+        x: { ticks: { color: "#9aa1b4", maxTicksLimit: 10 } },
+      },
+    },
+  });
+
+  new Chart(document.getElementById("codexDailyChart"), {
+    type: "bar",
+    data: {
+      labels: codex.daily.map(d => d.date),
+      datasets: [{
+        label: "Tokens",
+        data: codex.daily.map(d => d.tokens),
+        backgroundColor: "#6ea8fe",
+      }],
+    },
+    options: {
+      responsive: true,
+      plugins: { legend: { display: false } },
+      scales: {
+        y: { beginAtZero: true, ticks: { color: "#9aa1b4", callback: (v) => fmt(v) } },
+        x: { ticks: { color: "#9aa1b4", maxTicksLimit: 10 } },
+      },
+    },
+  });
+
+  const topSessionsTable = document.getElementById("codexTopSessions");
+  const HEAVY_THRESHOLD = 100_000_000;
+  topSessionsTable.innerHTML = "<tr><th>Project</th><th>Span</th><th>Model</th><th>Tokens</th></tr>" +
+    codex.topSessions.slice(0, 12).map(s => {
+      const span = s.startDate === s.endDate ? s.startDate : `${s.startDate} → ${s.endDate}`;
+      const heavy = s.tokens > HEAVY_THRESHOLD ? "heavy" : "";
+      return `<tr class="${heavy}"><td>${s.project}</td><td>${span}</td><td>${s.model}</td><td>${fmt(s.tokens)}</td></tr>`;
+    }).join("");
+}
+
+main().catch(err => {
+  document.body.innerHTML += `<div class="panel" style="border-color:var(--danger)">Failed to load data/usage-data.json — did you run ./refresh.sh? <br><code>${err}</code></div>`;
+});
+</script>
+
+</body>
+</html>

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T14:41:50.490068+00:00",
+  "generatedAt": "2026-09-22T15:00:02.714104+00:00",
   "claude": {
     "daily": [
       {
@@ -39,14 +39,14 @@
       },
       {
         "date": "2026-09-22",
-        "tokens": 167381221,
-        "cost": 74.6512
+        "tokens": 174998238,
+        "cost": 77.985
       }
     ],
     "byModel": [
       {
         "model": "claude-sonnet-5",
-        "tokens": 528593095
+        "tokens": 536210112
       },
       {
         "model": "claude-fable-5-1",
@@ -64,7 +64,7 @@
     "byProject": [
       {
         "project": "ios-app1",
-        "tokens": 645132340
+        "tokens": 652749357
       },
       {
         "project": "mental-models",

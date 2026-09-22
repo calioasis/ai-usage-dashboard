@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T14:16:21.684935+00:00",
+  "generatedAt": "2026-09-22T14:41:50.490068+00:00",
   "claude": {
     "daily": [
       {
@@ -39,14 +39,14 @@
       },
       {
         "date": "2026-09-22",
-        "tokens": 154130808,
-        "cost": 69.279
+        "tokens": 167381221,
+        "cost": 74.6512
       }
     ],
     "byModel": [
       {
         "model": "claude-sonnet-5",
-        "tokens": 515342682
+        "tokens": 528593095
       },
       {
         "model": "claude-fable-5-1",
@@ -64,7 +64,7 @@
     "byProject": [
       {
         "project": "ios-app1",
-        "tokens": 631881927
+        "tokens": 645132340
       },
       {
         "project": "mental-models",
@@ -1635,228 +1635,378 @@
     "topSessions": [
       {
         "file": "rollout-2026-07-31T20-17-57-019fbb54-1318-7640-9c6f-eb7177a67a77.jsonl",
+        "sessionId": "019fbb54-1318-7640-9c6f-eb7177a67a77",
         "startDate": "2026-08-01",
         "endDate": "2026-08-19",
         "project": "Counterpoint 2",
         "model": "gpt-5.6-terra",
         "tokens": 562004963,
+        "agentNickname": null,
         "rateLimitPercentDelta": 88.0
       },
       {
         "file": "rollout-2026-08-17T18-28-52-01a0127c-511a-7093-9a9b-6eee6bbe6dbd.jsonl",
+        "sessionId": "01a0127c-511a-7093-9a9b-6eee6bbe6dbd",
         "startDate": "2026-08-18",
         "endDate": "2026-08-18",
         "project": "Counterpoint 2",
         "model": "gpt-5.6-sol",
         "tokens": 413111429,
+        "agentNickname": "Schrodinger",
         "rateLimitPercentDelta": 3.0
       },
       {
         "file": "rollout-2026-08-17T18-28-55-01a0127c-5d4d-7af1-b72d-f6ad5db0ac0e.jsonl",
+        "sessionId": "01a0127c-5d4d-7af1-b72d-f6ad5db0ac0e",
         "startDate": "2026-08-18",
         "endDate": "2026-08-18",
         "project": "Counterpoint 2",
         "model": "gpt-5.6-sol",
         "tokens": 412342532,
+        "agentNickname": "Cicero",
         "rateLimitPercentDelta": 2.0
       },
       {
         "file": "rollout-2026-08-17T17-52-15-01a0125a-cb76-7c60-9696-9f0ee017dd93.jsonl",
+        "sessionId": "01a0125a-cb76-7c60-9696-9f0ee017dd93",
         "startDate": "2026-08-18",
         "endDate": "2026-08-18",
         "project": "Counterpoint 2",
         "model": "gpt-5.6-sol",
         "tokens": 383706240,
+        "agentNickname": "Hypatia",
         "rateLimitPercentDelta": 7.0
       },
       {
         "file": "rollout-2026-08-17T17-52-17-01a0125a-d281-7c02-acc4-b8bfe8b3c3ce.jsonl",
+        "sessionId": "01a0125a-d281-7c02-acc4-b8bfe8b3c3ce",
         "startDate": "2026-08-18",
         "endDate": "2026-08-18",
         "project": "Counterpoint 2",
         "model": "gpt-5.6-sol",
         "tokens": 382718139,
+        "agentNickname": "Raman",
         "rateLimitPercentDelta": 7.0
       },
       {
         "file": "rollout-2026-08-17T16-57-07-01a01228-50ee-7ca1-ab5a-2e686bf3e0c0.jsonl",
+        "sessionId": "01a01228-50ee-7ca1-ab5a-2e686bf3e0c0",
         "startDate": "2026-08-17",
         "endDate": "2026-08-17",
         "project": "Counterpoint 2",
         "model": "gpt-5.6-terra",
         "tokens": 353240779,
+        "agentNickname": "Avicenna",
         "rateLimitPercentDelta": 5.0
       },
       {
         "file": "rollout-2026-08-17T16-57-05-01a01228-4943-7de3-80a8-bd8dab23f91d.jsonl",
+        "sessionId": "01a01228-4943-7de3-80a8-bd8dab23f91d",
         "startDate": "2026-08-17",
         "endDate": "2026-08-17",
         "project": "Counterpoint 2",
         "model": "gpt-5.6-terra",
         "tokens": 352761035,
+        "agentNickname": "Mencius",
         "rateLimitPercentDelta": 5.0
       },
       {
         "file": "rollout-2026-08-17T16-57-03-01a01228-4124-7b20-b2c6-fe45a9aa1ca4.jsonl",
+        "sessionId": "01a01228-4124-7b20-b2c6-fe45a9aa1ca4",
         "startDate": "2026-08-17",
         "endDate": "2026-08-17",
         "project": "Counterpoint 2",
         "model": "gpt-5.6-terra",
         "tokens": 352685858,
+        "agentNickname": "Rawls",
         "rateLimitPercentDelta": 5.0
       },
       {
         "file": "rollout-2026-08-06T17-02-41-019fd987-7547-7231-90ec-8e1df00e6fb4.jsonl",
+        "sessionId": "019fd987-7547-7231-90ec-8e1df00e6fb4",
         "startDate": "2026-08-07",
         "endDate": "2026-08-07",
         "project": "Counterpoint 2",
         "model": "gpt-5.6-sol",
         "tokens": 335368262,
+        "agentNickname": "Newton",
         "rateLimitPercentDelta": 8.0
       },
       {
         "file": "rollout-2026-08-06T17-02-45-019fd987-880c-70d2-acfd-04a8d71fd525.jsonl",
+        "sessionId": "019fd987-880c-70d2-acfd-04a8d71fd525",
         "startDate": "2026-08-07",
         "endDate": "2026-08-07",
         "project": "Counterpoint 2",
         "model": "gpt-5.6-sol",
         "tokens": 333885585,
+        "agentNickname": "Bernoulli",
         "rateLimitPercentDelta": 8.0
       },
       {
         "file": "rollout-2026-08-06T17-02-37-019fd987-6580-7b12-8e1e-84b4ca37cc91.jsonl",
+        "sessionId": "019fd987-6580-7b12-8e1e-84b4ca37cc91",
         "startDate": "2026-08-07",
         "endDate": "2026-08-07",
         "project": "Counterpoint 2",
         "model": "gpt-5.6-sol",
         "tokens": 331766845,
+        "agentNickname": "Kuhn",
         "rateLimitPercentDelta": 7.0
       },
       {
         "file": "rollout-2026-08-17T14-11-36-01a01190-ca67-73f2-8879-6e48fb1aa39d.jsonl",
+        "sessionId": "01a01190-ca67-73f2-8879-6e48fb1aa39d",
         "startDate": "2026-08-17",
         "endDate": "2026-08-17",
         "project": "Counterpoint 2",
         "model": "gpt-5.6-terra",
         "tokens": 296550894,
+        "agentNickname": "Descartes",
         "rateLimitPercentDelta": 3.0
       },
       {
         "file": "rollout-2026-08-17T14-11-31-01a01190-b48d-7f00-b964-1f3cad1a64f8.jsonl",
+        "sessionId": "01a01190-b48d-7f00-b964-1f3cad1a64f8",
         "startDate": "2026-08-17",
         "endDate": "2026-08-17",
         "project": "Counterpoint 2",
         "model": "gpt-5.6-terra",
         "tokens": 296107660,
+        "agentNickname": "Bernoulli",
         "rateLimitPercentDelta": 3.0
       },
       {
         "file": "rollout-2026-08-17T14-11-33-01a01190-bbbe-7f01-a7f5-dc8c183680e0.jsonl",
+        "sessionId": "01a01190-bbbe-7f01-a7f5-dc8c183680e0",
         "startDate": "2026-08-17",
         "endDate": "2026-08-17",
         "project": "Counterpoint 2",
         "model": "gpt-5.6-terra",
         "tokens": 295992304,
+        "agentNickname": "Leibniz",
         "rateLimitPercentDelta": 3.0
       },
       {
         "file": "rollout-2026-08-17T14-11-34-01a01190-c2ef-73a0-8525-ba8c6366d476.jsonl",
+        "sessionId": "01a01190-c2ef-73a0-8525-ba8c6366d476",
         "startDate": "2026-08-17",
         "endDate": "2026-08-17",
         "project": "Counterpoint 2",
         "model": "gpt-5.6-terra",
         "tokens": 295962067,
+        "agentNickname": "Averroes",
         "rateLimitPercentDelta": 3.0
       },
       {
         "file": "rollout-2026-08-05T22-12-45-019fd57c-fbc3-7072-9946-9b1fdeb547c7.jsonl",
+        "sessionId": "019fd57c-fbc3-7072-9946-9b1fdeb547c7",
         "startDate": "2026-08-06",
         "endDate": "2026-08-06",
         "project": "Counterpoint 2",
         "model": "gpt-5.6-sol",
         "tokens": 294104283,
+        "agentNickname": "Volta",
         "rateLimitPercentDelta": 1.0
       },
       {
         "file": "rollout-2026-08-05T20-55-34-019fd536-4f1f-7ec0-b395-4314e5ab5802.jsonl",
+        "sessionId": "019fd536-4f1f-7ec0-b395-4314e5ab5802",
         "startDate": "2026-08-06",
         "endDate": "2026-08-06",
         "project": "Counterpoint 2",
         "model": "gpt-5.6-sol",
         "tokens": 257695129,
+        "agentNickname": "Kierkegaard",
         "rateLimitPercentDelta": 2.0
       },
       {
         "file": "rollout-2026-08-05T20-55-29-019fd536-3dbf-7f83-97ac-b2438fc3809b.jsonl",
+        "sessionId": "019fd536-3dbf-7f83-97ac-b2438fc3809b",
         "startDate": "2026-08-06",
         "endDate": "2026-08-06",
         "project": "Counterpoint 2",
         "model": "gpt-5.6-sol",
         "tokens": 256985047,
+        "agentNickname": "Dalton",
         "rateLimitPercentDelta": 2.0
       },
       {
         "file": "rollout-2026-08-05T19-38-15-019fd4ef-87df-77a2-8405-47ccfc28c005.jsonl",
+        "sessionId": "019fd4ef-87df-77a2-8405-47ccfc28c005",
         "startDate": "2026-08-06",
         "endDate": "2026-08-06",
         "project": "Counterpoint 2",
         "model": "gpt-5.6-terra",
         "tokens": 236813925,
+        "agentNickname": "Hume",
         "rateLimitPercentDelta": 1.0
       },
       {
         "file": "rollout-2026-08-05T19-38-14-019fd4ef-84f1-7fa2-af34-4aa607705310.jsonl",
+        "sessionId": "019fd4ef-84f1-7fa2-af34-4aa607705310",
         "startDate": "2026-08-06",
         "endDate": "2026-08-06",
         "project": "Counterpoint 2",
         "model": "gpt-5.6-terra",
         "tokens": 236721655,
+        "agentNickname": "Kant",
         "rateLimitPercentDelta": 1.0
       },
       {
         "file": "rollout-2026-01-17T20-02-54-019bcf45-2756-7a43-94bb-cf59c489b83a.jsonl",
+        "sessionId": "019bcf45-2756-7a43-94bb-cf59c489b83a",
         "startDate": "2026-01-18",
         "endDate": "2026-02-04",
         "project": "ios-app1",
         "model": "gpt-5.2-codex",
         "tokens": 227336216,
+        "agentNickname": null,
         "rateLimitPercentDelta": 0.0
       },
       {
         "file": "rollout-2026-08-14T15-18-04-01a0025a-9033-7a80-b2b3-af380c438f36.jsonl",
+        "sessionId": "01a0025a-9033-7a80-b2b3-af380c438f36",
         "startDate": "2026-08-14",
         "endDate": "2026-08-25",
         "project": "Counterpoint 2",
         "model": "gpt-5.6-terra",
         "tokens": 222566499,
+        "agentNickname": null,
         "rateLimitPercentDelta": -10.0
       },
       {
         "file": "rollout-2026-09-15T20-20-22-01a0a83a-d316-7553-a6ca-e28671318998.jsonl",
+        "sessionId": "01a0a83a-d316-7553-a6ca-e28671318998",
         "startDate": "2026-09-16",
         "endDate": "2026-09-21",
         "project": "repos",
         "model": "gpt-5.6-sol",
         "tokens": 208958349,
+        "agentNickname": null,
         "rateLimitPercentDelta": 40.0
       },
       {
         "file": "rollout-2026-06-02T21-43-30-019e8bcb-32f4-7bd0-a6d9-176ad191bbbd.jsonl",
+        "sessionId": "019e8bcb-32f4-7bd0-a6d9-176ad191bbbd",
         "startDate": "2026-06-03",
         "endDate": "2026-06-06",
         "project": "repos",
         "model": "gpt-5.5",
         "tokens": 139672221,
+        "agentNickname": null,
         "rateLimitPercentDelta": 0.0
       },
       {
         "file": "rollout-2026-08-25T14-20-26-01a03acb-c02f-7a93-be21-b9c9160cab31.jsonl",
+        "sessionId": "01a03acb-c02f-7a93-be21-b9c9160cab31",
         "startDate": "2026-08-25",
         "endDate": "2026-09-21",
         "project": "Counterpoint 2",
         "model": "gpt-6-astra",
         "tokens": 133725039,
+        "agentNickname": null,
         "rateLimitPercentDelta": 86.0
+      }
+    ],
+    "threadFanouts": [
+      {
+        "parentProject": "Counterpoint 2",
+        "parentStartDate": "2026-08-01",
+        "parentTokens": 562004963,
+        "subagentCount": 11,
+        "subagentTotalTokens": 3835178937,
+        "grandTotalTokens": 4397183900,
+        "threadAgeAtFirstSpawnDays": 16,
+        "spawnDates": [
+          "2026-08-17",
+          "2026-08-17",
+          "2026-08-17",
+          "2026-08-17",
+          "2026-08-17",
+          "2026-08-17",
+          "2026-08-17",
+          "2026-08-18",
+          "2026-08-18",
+          "2026-08-18",
+          "2026-08-18"
+        ],
+        "agentNicknames": [
+          "Mencius",
+          "Leibniz",
+          "Raman",
+          "Hypatia",
+          "Rawls",
+          "Avicenna",
+          "Bernoulli",
+          "Schrodinger",
+          "Cicero",
+          "Descartes",
+          "Averroes"
+        ]
+      },
+      {
+        "parentProject": "how-do-i-give-you-access",
+        "parentStartDate": "2026-05-18",
+        "parentTokens": 20740655,
+        "subagentCount": 8,
+        "subagentTotalTokens": 2283340731,
+        "grandTotalTokens": 2304081386,
+        "threadAgeAtFirstSpawnDays": 80,
+        "spawnDates": [
+          "2026-08-06",
+          "2026-08-06",
+          "2026-08-06",
+          "2026-08-06",
+          "2026-08-06",
+          "2026-08-07",
+          "2026-08-07",
+          "2026-08-07"
+        ],
+        "agentNicknames": [
+          "Kierkegaard",
+          "Hume",
+          "Dalton",
+          "Kant",
+          "Volta",
+          "Bernoulli",
+          "Kuhn",
+          "Newton"
+        ]
+      },
+      {
+        "parentProject": "repos",
+        "parentStartDate": "2026-09-16",
+        "parentTokens": 208958349,
+        "subagentCount": 1,
+        "subagentTotalTokens": 180274,
+        "grandTotalTokens": 209138623,
+        "threadAgeAtFirstSpawnDays": 3,
+        "spawnDates": [
+          "2026-09-19"
+        ],
+        "agentNicknames": [
+          "Averroes"
+        ]
+      },
+      {
+        "parentProject": "Counterpoint 2",
+        "parentStartDate": "2026-08-10",
+        "parentTokens": 124513665,
+        "subagentCount": 3,
+        "subagentTotalTokens": 2965584,
+        "grandTotalTokens": 127479249,
+        "threadAgeAtFirstSpawnDays": 0,
+        "spawnDates": [
+          "2026-08-10",
+          "2026-08-10",
+          "2026-08-10"
+        ],
+        "agentNicknames": [
+          "Jason",
+          "Hume",
+          "Euler"
+        ]
       }
     ]
   },

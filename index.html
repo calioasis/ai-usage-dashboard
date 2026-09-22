@@ -153,6 +153,14 @@
 </div>
 
 <div class="grid" style="margin-top:16px;">
+  <div class="panel" style="grid-column: 1 / -1;">
+    <h2><span class="dot codex"></span> Codex — thread fan-outs</h2>
+    <p class="muted">A long-running thread that spawned subagents. Each subagent inherits a slice of the parent's accumulated context, so cost scales with how old the parent thread already was when it fanned out — an old, resumed thread that spawns several subagents at once is the single biggest lever for cutting usage.</p>
+    <table id="codexFanouts"></table>
+  </div>
+</div>
+
+<div class="grid" style="margin-top:16px;">
   <div class="panel">
     <h2><span class="dot grok"></span> Grok</h2>
     <div class="placeholder">Not wired up yet — coming when xAI usage collection is added.</div>
@@ -284,6 +292,20 @@ function renderCodex(codex) {
       const heavy = s.tokens > HEAVY_THRESHOLD ? "heavy" : "";
       return `<tr class="${heavy}"><td>${s.project}</td><td>${span}</td><td>${s.model}</td><td>${fmt(s.tokens)}</td></tr>`;
     }).join("");
+
+  const fanoutsTable = document.getElementById("codexFanouts");
+  const fanouts = (codex.threadFanouts || []).filter(f => f.subagentCount >= 2);
+  if (fanouts.length === 0) {
+    fanoutsTable.outerHTML = '<p class="muted">No multi-subagent fan-outs detected yet.</p>';
+  } else {
+    fanoutsTable.innerHTML =
+      "<tr><th>Project</th><th>Thread started</th><th>Thread age at fan-out</th><th>Subagents</th><th>Subagent tokens</th><th>Grand total</th></tr>" +
+      fanouts.slice(0, 10).map(f => {
+        const heavy = f.grandTotalTokens > HEAVY_THRESHOLD ? "heavy" : "";
+        const age = f.threadAgeAtFirstSpawnDays == null ? "–" : `${f.threadAgeAtFirstSpawnDays}d old`;
+        return `<tr class="${heavy}"><td>${f.parentProject}</td><td>${f.parentStartDate ?? "–"}</td><td>${age}</td><td>${f.subagentCount} (${f.agentNicknames.slice(0,3).join(", ")}${f.agentNicknames.length>3 ? "…" : ""})</td><td>${fmt(f.subagentTotalTokens)}</td><td>${fmt(f.grandTotalTokens)}</td></tr>`;
+      }).join("");
+  }
 }
 
 main().catch(err => {

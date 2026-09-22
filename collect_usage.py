@@ -154,6 +154,8 @@ def collect_codex():
     by_model = defaultdict(float)
     rl_by_date = {}  # date -> {usedPercent, planType, windowMinutes} (max usedPercent seen that day)
     sessions = []  # one row per session file: for spotting the single runaway session
+    session_by_id = {}  # session_id -> session summary, for fan-out parent lookups
+    children_by_parent = defaultdict(list)  # parent_thread_id -> [child spawn records]
 
     seen_files = set()
     files = []
@@ -168,6 +170,10 @@ def collect_codex():
 
         session_cwd = None
         session_model = "unknown"
+        session_id = None
+        parent_thread_id = None
+        agent_nickname = None
+        spawn_timestamp = None
         last_total = 0
         first_date = None
         last_date = None
@@ -191,6 +197,14 @@ def collect_codex():
                     if etype == "session_meta":
                         session_cwd = payload.get("cwd")
                         session_model = payload.get("model") or session_model
+                        session_id = payload.get("id") or payload.get("session_id")
+                        spawn_timestamp = payload.get("timestamp") or entry.get("timestamp")
+                        source = payload.get("source")
+                        if isinstance(source, dict):
+                            thread_spawn = source.get("subagent", {}).get("thread_spawn")
+                            if thread_spawn:
+                                parent_thread_id = thread_spawn.get("parent_thread_id")
+                                agent_nickname = thread_spawn.get("agent_nickname")
 
                     if etype == "turn_context":
                         session_model = payload.get("model") or session_model
@@ -241,20 +255,41 @@ def collect_codex():
         except OSError:
             continue
 
+        project_label = os.path.basename(session_cwd.rstrip("/")) if session_cwd else "unknown"
+
         if last_total > 0:
-            sessions.append(
+            session_record = {
+                "file": jsonl_file.name,
+                "sessionId": session_id,
+                "startDate": first_date,
+                "endDate": last_date,
+                "project": project_label,
+                "model": session_model,
+                "tokens": round(last_total),
+                "agentNickname": agent_nickname,
+                "rateLimitPercentDelta": (
+                    round(session_end_percent - session_start_percent, 1)
+                    if session_start_percent is not None and session_end_percent is not None
+                    else None
+                ),
+            }
+            sessions.append(session_record)
+            if session_id:
+                session_by_id[session_id] = session_record
+
+        if parent_thread_id:
+            try:
+                spawn_date = datetime.fromisoformat(
+                    (spawn_timestamp or "").replace("Z", "+00:00")
+                ).date().isoformat()
+            except ValueError:
+                spawn_date = first_date
+            children_by_parent[parent_thread_id].append(
                 {
                     "file": jsonl_file.name,
-                    "startDate": first_date,
-                    "endDate": last_date,
-                    "project": os.path.basename(session_cwd.rstrip("/")) if session_cwd else "unknown",
-                    "model": session_model,
+                    "agentNickname": agent_nickname,
+                    "spawnDate": spawn_date,
                     "tokens": round(last_total),
-                    "rateLimitPercentDelta": (
-                        round(session_end_percent - session_start_percent, 1)
-                        if session_start_percent is not None and session_end_percent is not None
-                        else None
-                    ),
                 }
             )
 
@@ -262,12 +297,45 @@ def collect_codex():
     rate_limit_list = [rl_by_date[d] for d in sorted(rl_by_date)]
     top_sessions = sorted(sessions, key=lambda s: -s["tokens"])[:25]
 
+    # Fan-out detection: a long-running thread that spawned subagents. Each
+    # subagent inherits a slice of the PARENT thread's accumulated context, so
+    # the cost of a fan-out scales with how old/large the parent thread already
+    # was at spawn time — that compounding is the thing worth surfacing.
+    fanouts = []
+    for parent_id, children in children_by_parent.items():
+        parent = session_by_id.get(parent_id)
+        spawn_dates = sorted(c["spawnDate"] for c in children if c["spawnDate"])
+        thread_age_days = None
+        if parent and parent.get("startDate") and spawn_dates:
+            try:
+                start = datetime.fromisoformat(parent["startDate"])
+                first_spawn = datetime.fromisoformat(spawn_dates[0])
+                thread_age_days = (first_spawn - start).days
+            except ValueError:
+                thread_age_days = None
+        subagent_total = sum(c["tokens"] for c in children)
+        fanouts.append(
+            {
+                "parentProject": parent["project"] if parent else "unknown",
+                "parentStartDate": parent["startDate"] if parent else None,
+                "parentTokens": parent["tokens"] if parent else None,
+                "subagentCount": len(children),
+                "subagentTotalTokens": subagent_total,
+                "grandTotalTokens": (parent["tokens"] if parent else 0) + subagent_total,
+                "threadAgeAtFirstSpawnDays": thread_age_days,
+                "spawnDates": spawn_dates,
+                "agentNicknames": [c["agentNickname"] for c in children if c["agentNickname"]],
+            }
+        )
+    fanouts.sort(key=lambda f: -f["grandTotalTokens"])
+
     return {
         "daily": daily_list,
         "byModel": [{"model": m, "tokens": round(t)} for m, t in sorted(by_model.items(), key=lambda x: -x[1])],
         "byProject": [{"project": p, "tokens": round(t)} for p, t in sorted(by_project.items(), key=lambda x: -x[1])],
         "rateLimitHistory": rate_limit_list,
         "topSessions": top_sessions,
+        "threadFanouts": fanouts[:15],
     }
 
 

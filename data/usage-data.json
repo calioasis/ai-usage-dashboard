@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T15:00:05.518292+00:00",
+  "generatedAt": "2026-09-25T15:00:05.543267+00:00",
   "claude": {
     "daily": [
       {
@@ -49,8 +49,13 @@
       },
       {
         "date": "2026-09-24",
-        "tokens": 4043224,
-        "cost": 11.7056
+        "tokens": 58895962,
+        "cost": 118.596
+      },
+      {
+        "date": "2026-09-25",
+        "tokens": 26435798,
+        "cost": 45.8569
       }
     ],
     "byModel": [
@@ -60,7 +65,7 @@
       },
       {
         "model": "claude-opus-5-5",
-        "tokens": 91506162
+        "tokens": 172794698
       },
       {
         "model": "claude-fable-5-1",
@@ -78,11 +83,15 @@
     "byProject": [
       {
         "project": "ios-app1",
-        "tokens": 332528298
+        "tokens": 369993904
       },
       {
         "project": "1bb294",
         "tokens": 53748396
+      },
+      {
+        "project": "g1-conference",
+        "tokens": 46197220
       },
       {
         "project": "mental-models",
@@ -97,10 +106,6 @@
         "tokens": 5301464
       },
       {
-        "project": "g1-conference",
-        "tokens": 2148488
-      },
-      {
         "project": "90bd03",
         "tokens": 1801018
       },
@@ -111,10 +116,6 @@
       {
         "project": "a57c29",
         "tokens": 599129
-      },
-      {
-        "project": "f8a439",
-        "tokens": 225802
       },
       {
         "project": "318dc6",

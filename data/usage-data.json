@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T15:00:05.543267+00:00",
+  "generatedAt": "2026-09-26T15:00:02.947926+00:00",
   "claude": {
     "daily": [
       {
@@ -600,35 +600,43 @@
       },
       {
         "date": "2026-09-12",
-        "tokens": 62760217
+        "tokens": 48540200
       },
       {
         "date": "2026-09-14",
-        "tokens": 33087930
+        "tokens": 28577320
       },
       {
         "date": "2026-09-15",
-        "tokens": 8096589
+        "tokens": 6489794
       },
       {
         "date": "2026-09-16",
-        "tokens": 39637123
+        "tokens": 38167669
       },
       {
         "date": "2026-09-17",
-        "tokens": 81109630
+        "tokens": 66735678
       },
       {
         "date": "2026-09-18",
-        "tokens": 222257108
+        "tokens": 169093864
       },
       {
         "date": "2026-09-19",
-        "tokens": 24050677
+        "tokens": 19061623
       },
       {
         "date": "2026-09-21",
-        "tokens": 57676298
+        "tokens": 48587268
+      },
+      {
+        "date": "2026-09-25",
+        "tokens": 6761059
+      },
+      {
+        "date": "2026-09-26",
+        "tokens": 1067792
       }
     ],
     "byModel": [
@@ -650,15 +658,11 @@
       },
       {
         "model": "gpt-6-astra",
-        "tokens": 359084315
+        "tokens": 366913166
       },
       {
         "model": "gpt-5.2-codex",
         "tokens": 242944076
-      },
-      {
-        "model": "codex-auto-review",
-        "tokens": 103422156
       },
       {
         "model": "gpt-5.1-codex-max",
@@ -672,7 +676,7 @@
     "byProject": [
       {
         "project": "Counterpoint 2",
-        "tokens": 1740180957
+        "tokens": 1699326985
       },
       {
         "project": "ios-app1",
@@ -684,7 +688,7 @@
       },
       {
         "project": "repos",
-        "tokens": 519725852
+        "tokens": 465382546
       },
       {
         "project": "Job Search",
@@ -692,7 +696,7 @@
       },
       {
         "project": "Science",
-        "tokens": 129517755
+        "tokens": 130009131
       },
       {
         "project": "sda-tennis-access",
@@ -712,7 +716,7 @@
       },
       {
         "project": "Oceancrest software",
-        "tokens": 33676125
+        "tokens": 26099024
       },
       {
         "project": "sites-plugin-sites-openai-bundled-create",
@@ -725,6 +729,10 @@
       {
         "project": "server",
         "tokens": 12481134
+      },
+      {
+        "project": "Studying 2",
+        "tokens": 7337475
       },
       {
         "project": "resume",
@@ -744,11 +752,11 @@
       },
       {
         "project": "referenced-chatgpt-conversation-this-is-an",
-        "tokens": 3306435
+        "tokens": 3111046
       },
       {
         "project": "AI Conference",
-        "tokens": 3005735
+        "tokens": 2553347
       },
       {
         "project": "every-day-we-have-a-script",
@@ -1661,22 +1669,36 @@
         "usedPercent": 61.0,
         "planType": "prolite",
         "windowMinutes": 10080,
-        "resetsAt": 1790357163
+        "resetsAt": 1790357162
       },
       {
         "date": "2026-09-21",
         "usedPercent": 100.0,
         "planType": "prolite",
         "windowMinutes": 10080,
-        "resetsAt": 1790357163
+        "resetsAt": 1790357162
+      },
+      {
+        "date": "2026-09-25",
+        "usedPercent": 6.0,
+        "planType": "prolite",
+        "windowMinutes": 10080,
+        "resetsAt": 1790964093
+      },
+      {
+        "date": "2026-09-26",
+        "usedPercent": 7.0,
+        "planType": "prolite",
+        "windowMinutes": 10080,
+        "resetsAt": 1790964093
       }
     ],
     "currentWindow": {
-      "observedAt": "2026-09-21T19:28:57.341Z",
-      "usedPercent": 100.0,
+      "observedAt": "2026-09-26T05:06:29.054Z",
+      "usedPercent": 7.0,
       "planType": "prolite",
       "windowMinutes": 10080,
-      "resetsAt": 1790357162
+      "resetsAt": 1790964093
     },
     "topSessions": [
       {

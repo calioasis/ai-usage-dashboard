@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T15:04:06.371669+00:00",
+  "generatedAt": "2026-09-28T15:07:54.596657+00:00",
   "claude": {
     "daily": [
       {
@@ -56,6 +56,11 @@
         "date": "2026-09-25",
         "tokens": 26435798,
         "cost": 45.8569
+      },
+      {
+        "date": "2026-09-27",
+        "tokens": 12588248,
+        "cost": 35.8392
       }
     ],
     "byModel": [
@@ -65,7 +70,7 @@
       },
       {
         "model": "claude-opus-5-5",
-        "tokens": 172794698
+        "tokens": 185382946
       },
       {
         "model": "claude-fable-5-1",
@@ -86,12 +91,12 @@
         "tokens": 369993904
       },
       {
-        "project": "1bb294",
-        "tokens": 53748396
+        "project": "g1-conference",
+        "tokens": 58785468
       },
       {
-        "project": "g1-conference",
-        "tokens": 46197220
+        "project": "1bb294",
+        "tokens": 53748396
       },
       {
         "project": "mental-models",
@@ -637,6 +642,10 @@
       {
         "date": "2026-09-26",
         "tokens": 1067792
+      },
+      {
+        "date": "2026-09-27",
+        "tokens": 5620207
       }
     ],
     "byModel": [
@@ -658,7 +667,7 @@
       },
       {
         "model": "gpt-6-astra",
-        "tokens": 366913166
+        "tokens": 372533373
       },
       {
         "model": "gpt-5.2-codex",
@@ -727,12 +736,12 @@
         "tokens": 17793116
       },
       {
-        "project": "server",
-        "tokens": 12481134
+        "project": "Studying 2",
+        "tokens": 12957682
       },
       {
-        "project": "Studying 2",
-        "tokens": 7337475
+        "project": "server",
+        "tokens": 12481134
       },
       {
         "project": "resume",
@@ -1691,14 +1700,21 @@
         "planType": "prolite",
         "windowMinutes": 10080,
         "resetsAt": 1790964093
+      },
+      {
+        "date": "2026-09-27",
+        "usedPercent": 4.0,
+        "planType": "prolite",
+        "windowMinutes": 10080,
+        "resetsAt": 1791135058
       }
     ],
     "currentWindow": {
-      "observedAt": "2026-09-26T05:06:29.054Z",
-      "usedPercent": 7.0,
+      "observedAt": "2026-09-27T18:24:59.463Z",
+      "usedPercent": 4.0,
       "planType": "prolite",
       "windowMinutes": 10080,
-      "resetsAt": 1790964093
+      "resetsAt": 1791135058
     },
     "topSessions": [
       {

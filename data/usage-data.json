@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T15:11:19.830964+00:00",
+  "generatedAt": "2026-10-01T15:00:05.284635+00:00",
   "claude": {
     "daily": [
       {
@@ -69,14 +69,19 @@
       },
       {
         "date": "2026-09-30",
-        "tokens": 75820719,
-        "cost": 138.8001
+        "tokens": 128063283,
+        "cost": 250.6529
+      },
+      {
+        "date": "2026-10-01",
+        "tokens": 15407418,
+        "cost": 35.0657
       }
     ],
     "byModel": [
       {
         "model": "claude-opus-5-5",
-        "tokens": 268791410
+        "tokens": 336441392
       },
       {
         "model": "claude-sonnet-5",
@@ -102,7 +107,7 @@
       },
       {
         "project": "g1-conference",
-        "tokens": 142138205
+        "tokens": 209788187
       },
       {
         "project": "1bb294",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T15:53:49.857669+00:00",
+  "generatedAt": "2026-10-03T15:04:18.921938+00:00",
   "claude": {
     "daily": [
       {
@@ -665,6 +665,10 @@
       {
         "date": "2026-09-29",
         "tokens": 7123199
+      },
+      {
+        "date": "2026-10-02",
+        "tokens": 6639170
       }
     ],
     "byModel": [
@@ -686,7 +690,7 @@
       },
       {
         "model": "gpt-6-astra",
-        "tokens": 377463976
+        "tokens": 383328092
       },
       {
         "model": "gpt-5.2-codex",
@@ -697,6 +701,10 @@
         "tokens": 41272818
       },
       {
+        "model": "codex-auto-review",
+        "tokens": 775054
+      },
+      {
         "model": "gpt-5.6-luna",
         "tokens": 180274
       }
@@ -704,7 +712,7 @@
     "byProject": [
       {
         "project": "Counterpoint 2",
-        "tokens": 1699326985
+        "tokens": 1705966155
       },
       {
         "project": "ios-app1",
@@ -1733,11 +1741,18 @@
         "planType": "prolite",
         "windowMinutes": 10080,
         "resetsAt": 1791135058
+      },
+      {
+        "date": "2026-10-02",
+        "usedPercent": 17.0,
+        "planType": "prolite",
+        "windowMinutes": 10080,
+        "resetsAt": 1791135058
       }
     ],
     "currentWindow": {
-      "observedAt": "2026-09-29T22:40:50.660Z",
-      "usedPercent": 10.0,
+      "observedAt": "2026-10-02T16:34:06.647Z",
+      "usedPercent": 17.0,
       "planType": "prolite",
       "windowMinutes": 10080,
       "resetsAt": 1791135058

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T17:53:33.657100+00:00",
+  "generatedAt": "2026-10-06T15:00:29.878511+00:00",
   "claude": {
     "daily": [
       {
@@ -669,6 +669,10 @@
       {
         "date": "2026-10-02",
         "tokens": 6639170
+      },
+      {
+        "date": "2026-10-06",
+        "tokens": 9879779
       }
     ],
     "byModel": [
@@ -690,7 +694,7 @@
       },
       {
         "model": "gpt-6-astra",
-        "tokens": 383328092
+        "tokens": 392019023
       },
       {
         "model": "gpt-5.2-codex",
@@ -702,7 +706,7 @@
       },
       {
         "model": "codex-auto-review",
-        "tokens": 775054
+        "tokens": 1963902
       },
       {
         "model": "gpt-5.6-luna",
@@ -712,7 +716,7 @@
     "byProject": [
       {
         "project": "Counterpoint 2",
-        "tokens": 1705966155
+        "tokens": 1715537337
       },
       {
         "project": "ios-app1",
@@ -817,6 +821,10 @@
       {
         "project": "g-p-6a77f0ddec188191b9660c9132ff6fee",
         "tokens": 311150
+      },
+      {
+        "project": "can-x20",
+        "tokens": 308597
       },
       {
         "project": "i-need-to-delay-jury-duty",
@@ -1748,14 +1756,21 @@
         "planType": "prolite",
         "windowMinutes": 10080,
         "resetsAt": 1791135058
+      },
+      {
+        "date": "2026-10-06",
+        "usedPercent": 9.0,
+        "planType": "prolite",
+        "windowMinutes": 10080,
+        "resetsAt": 1791859696
       }
     ],
     "currentWindow": {
-      "observedAt": "2026-10-02T16:34:06.647Z",
-      "usedPercent": 17.0,
+      "observedAt": "2026-10-06T03:55:10.119Z",
+      "usedPercent": 9.0,
       "planType": "prolite",
       "windowMinutes": 10080,
-      "resetsAt": 1791135058
+      "resetsAt": 1791859696
     },
     "topSessions": [
       {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T15:00:05.681773+00:00",
+  "generatedAt": "2026-10-12T15:00:05.695780+00:00",
   "claude": {
     "daily": [
       {
@@ -685,6 +685,14 @@
       {
         "date": "2026-10-09",
         "tokens": 2492577
+      },
+      {
+        "date": "2026-10-11",
+        "tokens": 1473349
+      },
+      {
+        "date": "2026-10-12",
+        "tokens": 69285290
       }
     ],
     "byModel": [
@@ -702,7 +710,7 @@
       },
       {
         "model": "gpt-6-astra",
-        "tokens": 411196740
+        "tokens": 468881520
       },
       {
         "model": "gpt-5-codex",
@@ -718,7 +726,7 @@
       },
       {
         "model": "codex-auto-review",
-        "tokens": 4329469
+        "tokens": 17403328
       },
       {
         "model": "gpt-5.6-luna",
@@ -728,7 +736,7 @@
     "byProject": [
       {
         "project": "Counterpoint 2",
-        "tokens": 1737080621
+        "tokens": 1807839260
       },
       {
         "project": "ios-app1",
@@ -1796,14 +1804,28 @@
         "planType": "prolite",
         "windowMinutes": 10080,
         "resetsAt": 1791950581
+      },
+      {
+        "date": "2026-10-11",
+        "usedPercent": 2.0,
+        "planType": "prolite",
+        "windowMinutes": 10080,
+        "resetsAt": 1792342945
+      },
+      {
+        "date": "2026-10-12",
+        "usedPercent": 57.0,
+        "planType": "prolite",
+        "windowMinutes": 10080,
+        "resetsAt": 1792342945
       }
     ],
     "currentWindow": {
-      "observedAt": "2026-10-09T19:04:58.835Z",
-      "usedPercent": 20.0,
+      "observedAt": "2026-10-12T04:12:28.424Z",
+      "usedPercent": 57.0,
       "planType": "prolite",
       "windowMinutes": 10080,
-      "resetsAt": 1791950581
+      "resetsAt": 1792342945
     },
     "topSessions": [
       {
@@ -1961,6 +1983,17 @@
         "rateLimitPercentDelta": 42.0
       },
       {
+        "file": "rollout-2026-10-09T09-01-46-01a12166-2d8e-7060-9836-b8ee2e6d9a72.jsonl",
+        "sessionId": "01a12166-2d8e-7060-9836-b8ee2e6d9a72",
+        "startDate": "2026-10-09",
+        "endDate": "2026-10-12",
+        "project": "Counterpoint 2",
+        "model": "gpt-6-astra",
+        "tokens": 51213309,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 33.0
+      },
+      {
         "file": "rollout-2026-09-10T15-15-14-01a08d63-a9ed-7ec2-aaa9-ec7c59c1ddcd.jsonl",
         "sessionId": "01a08d63-a9ed-7ec2-aaa9-ec7c59c1ddcd",
         "startDate": "2026-09-10",
@@ -2069,17 +2102,6 @@
         "tokens": 20740655,
         "agentNickname": null,
         "rateLimitPercentDelta": 47.0
-      },
-      {
-        "file": "rollout-2026-08-01T14-00-24-019fbf20-c6cb-73c1-aa3c-39af2976b8c2.jsonl",
-        "sessionId": "019fbf20-c6cb-73c1-aa3c-39af2976b8c2",
-        "startDate": "2026-08-01",
-        "endDate": "2026-08-02",
-        "project": "sites-plugin-sites-openai-bundled-create",
-        "model": "gpt-5.6-terra",
-        "tokens": 20429909,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 5.0
       }
     ],
     "threadFanouts": [
@@ -2150,6 +2172,21 @@
           "Jason",
           "Hume",
           "Euler"
+        ]
+      },
+      {
+        "parentProject": "Counterpoint 2",
+        "parentStartDate": "2026-10-09",
+        "parentTokens": 51213309,
+        "subagentCount": 1,
+        "subagentTotalTokens": 754611,
+        "grandTotalTokens": 51967920,
+        "threadAgeAtFirstSpawnDays": 0,
+        "spawnDates": [
+          "2026-10-09"
+        ],
+        "agentNicknames": [
+          "Arendt"
         ]
       },
       {

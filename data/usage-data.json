@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T15:00:05.108981+00:00",
+  "generatedAt": "2026-10-14T15:00:05.717406+00:00",
   "claude": {
     "daily": [
       {
@@ -693,6 +693,14 @@
       {
         "date": "2026-10-12",
         "tokens": 69285290
+      },
+      {
+        "date": "2026-10-13",
+        "tokens": 13080205
+      },
+      {
+        "date": "2026-10-14",
+        "tokens": 15142205
       }
     ],
     "byModel": [
@@ -710,7 +718,7 @@
       },
       {
         "model": "gpt-6-astra",
-        "tokens": 468881520
+        "tokens": 492061527
       },
       {
         "model": "gpt-5-codex",
@@ -726,7 +734,7 @@
       },
       {
         "model": "codex-auto-review",
-        "tokens": 17403328
+        "tokens": 22445731
       },
       {
         "model": "gpt-5.6-luna",
@@ -736,7 +744,7 @@
     "byProject": [
       {
         "project": "Counterpoint 2",
-        "tokens": 1807839260
+        "tokens": 1833301598
       },
       {
         "project": "ios-app1",
@@ -817,6 +825,10 @@
       {
         "project": "referenced-chatgpt-conversation-this-is-an",
         "tokens": 3111046
+      },
+      {
+        "project": "anal",
+        "tokens": 2760072
       },
       {
         "project": "every-day-we-have-a-script",
@@ -1818,14 +1830,28 @@
         "planType": "prolite",
         "windowMinutes": 10080,
         "resetsAt": 1792342945
+      },
+      {
+        "date": "2026-10-13",
+        "usedPercent": 11.0,
+        "planType": "prolite",
+        "windowMinutes": 10080,
+        "resetsAt": 1792508784
+      },
+      {
+        "date": "2026-10-14",
+        "usedPercent": 22.0,
+        "planType": "prolite",
+        "windowMinutes": 10080,
+        "resetsAt": 1792508784
       }
     ],
     "currentWindow": {
-      "observedAt": "2026-10-12T04:12:28.424Z",
-      "usedPercent": 57.0,
+      "observedAt": "2026-10-14T14:59:34.148Z",
+      "usedPercent": 22.0,
       "planType": "prolite",
       "windowMinutes": 10080,
-      "resetsAt": 1792342945
+      "resetsAt": 1792508784
     },
     "topSessions": [
       {
@@ -1950,6 +1976,17 @@
         "rateLimitPercentDelta": 2.0
       },
       {
+        "file": "rollout-2026-10-09T09-01-46-01a12166-2d8e-7060-9836-b8ee2e6d9a72.jsonl",
+        "sessionId": "01a12166-2d8e-7060-9836-b8ee2e6d9a72",
+        "startDate": "2026-10-09",
+        "endDate": "2026-10-14",
+        "project": "Counterpoint 2",
+        "model": "gpt-6-astra",
+        "tokens": 54352039,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 5.0
+      },
+      {
         "file": "rollout-2026-05-11T09-44-23-019e17ec-ec73-76c3-a2c3-5b97df1c7bed.jsonl",
         "sessionId": "019e17ec-ec73-76c3-a2c3-5b97df1c7bed",
         "startDate": "2026-05-11",
@@ -1981,17 +2018,6 @@
         "tokens": 52883872,
         "agentNickname": null,
         "rateLimitPercentDelta": 42.0
-      },
-      {
-        "file": "rollout-2026-10-09T09-01-46-01a12166-2d8e-7060-9836-b8ee2e6d9a72.jsonl",
-        "sessionId": "01a12166-2d8e-7060-9836-b8ee2e6d9a72",
-        "startDate": "2026-10-09",
-        "endDate": "2026-10-12",
-        "project": "Counterpoint 2",
-        "model": "gpt-6-astra",
-        "tokens": 51213309,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 33.0
       },
       {
         "file": "rollout-2026-09-10T15-15-14-01a08d63-a9ed-7ec2-aaa9-ec7c59c1ddcd.jsonl",
@@ -2177,10 +2203,10 @@
       {
         "parentProject": "Counterpoint 2",
         "parentStartDate": "2026-10-09",
-        "parentTokens": 51213309,
+        "parentTokens": 54352039,
         "subagentCount": 1,
         "subagentTotalTokens": 754611,
-        "grandTotalTokens": 51967920,
+        "grandTotalTokens": 55106650,
         "threadAgeAtFirstSpawnDays": 0,
         "spawnDates": [
           "2026-10-09"

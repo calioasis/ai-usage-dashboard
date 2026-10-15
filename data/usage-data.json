@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T15:00:05.717406+00:00",
+  "generatedAt": "2026-10-15T15:00:05.902559+00:00",
   "claude": {
     "daily": [
       {
@@ -700,7 +700,11 @@
       },
       {
         "date": "2026-10-14",
-        "tokens": 15142205
+        "tokens": 18633171
+      },
+      {
+        "date": "2026-10-15",
+        "tokens": 954995
       }
     ],
     "byModel": [
@@ -718,7 +722,7 @@
       },
       {
         "model": "gpt-6-astra",
-        "tokens": 492061527
+        "tokens": 496149992
       },
       {
         "model": "gpt-5-codex",
@@ -734,7 +738,7 @@
       },
       {
         "model": "codex-auto-review",
-        "tokens": 22445731
+        "tokens": 22803227
       },
       {
         "model": "gpt-5.6-luna",
@@ -744,7 +748,7 @@
     "byProject": [
       {
         "project": "Counterpoint 2",
-        "tokens": 1833301598
+        "tokens": 1837747559
       },
       {
         "project": "ios-app1",
@@ -1840,18 +1844,25 @@
       },
       {
         "date": "2026-10-14",
-        "usedPercent": 22.0,
+        "usedPercent": 25.0,
         "planType": "prolite",
         "windowMinutes": 10080,
         "resetsAt": 1792508784
+      },
+      {
+        "date": "2026-10-15",
+        "usedPercent": 1.0,
+        "planType": "prolite",
+        "windowMinutes": 10080,
+        "resetsAt": 1792681013
       }
     ],
     "currentWindow": {
-      "observedAt": "2026-10-14T14:59:34.148Z",
-      "usedPercent": 22.0,
+      "observedAt": "2026-10-15T15:00:01.723Z",
+      "usedPercent": 1.0,
       "planType": "prolite",
       "windowMinutes": 10080,
-      "resetsAt": 1792508784
+      "resetsAt": 1792681013
     },
     "topSessions": [
       {
@@ -1982,9 +1993,9 @@
         "endDate": "2026-10-14",
         "project": "Counterpoint 2",
         "model": "gpt-6-astra",
-        "tokens": 54352039,
+        "tokens": 56238449,
         "agentNickname": null,
-        "rateLimitPercentDelta": 5.0
+        "rateLimitPercentDelta": 7.0
       },
       {
         "file": "rollout-2026-05-11T09-44-23-019e17ec-ec73-76c3-a2c3-5b97df1c7bed.jsonl",
@@ -2203,10 +2214,10 @@
       {
         "parentProject": "Counterpoint 2",
         "parentStartDate": "2026-10-09",
-        "parentTokens": 54352039,
+        "parentTokens": 56238449,
         "subagentCount": 1,
         "subagentTotalTokens": 754611,
-        "grandTotalTokens": 55106650,
+        "grandTotalTokens": 56993060,
         "threadAgeAtFirstSpawnDays": 0,
         "spawnDates": [
           "2026-10-09"

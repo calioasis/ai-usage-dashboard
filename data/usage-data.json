@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T15:00:05.902559+00:00",
+  "generatedAt": "2026-10-16T15:01:41.997137+00:00",
   "claude": {
     "daily": [
       {
@@ -704,7 +704,11 @@
       },
       {
         "date": "2026-10-15",
-        "tokens": 954995
+        "tokens": 3866709
+      },
+      {
+        "date": "2026-10-16",
+        "tokens": 35515034
       }
     ],
     "byModel": [
@@ -722,7 +726,7 @@
       },
       {
         "model": "gpt-6-astra",
-        "tokens": 496149992
+        "tokens": 531147549
       },
       {
         "model": "gpt-5-codex",
@@ -738,7 +742,7 @@
       },
       {
         "model": "codex-auto-review",
-        "tokens": 22803227
+        "tokens": 26232418
       },
       {
         "model": "gpt-5.6-luna",
@@ -748,7 +752,7 @@
     "byProject": [
       {
         "project": "Counterpoint 2",
-        "tokens": 1837747559
+        "tokens": 1864957959
       },
       {
         "project": "ios-app1",
@@ -805,6 +809,10 @@
       {
         "project": "server",
         "tokens": 12481134
+      },
+      {
+        "project": "g-p-6ad1ad26e93c81919c3667ff260d16e1",
+        "tokens": 11216348
       },
       {
         "project": "AI Conference",
@@ -1851,15 +1859,22 @@
       },
       {
         "date": "2026-10-15",
-        "usedPercent": 1.0,
+        "usedPercent": 3.0,
+        "planType": "prolite",
+        "windowMinutes": 10080,
+        "resetsAt": 1792681013
+      },
+      {
+        "date": "2026-10-16",
+        "usedPercent": 31.0,
         "planType": "prolite",
         "windowMinutes": 10080,
         "resetsAt": 1792681013
       }
     ],
     "currentWindow": {
-      "observedAt": "2026-10-15T15:00:01.723Z",
-      "usedPercent": 1.0,
+      "observedAt": "2026-10-16T05:56:13.604Z",
+      "usedPercent": 31.0,
       "planType": "prolite",
       "windowMinutes": 10080,
       "resetsAt": 1792681013
@@ -2097,6 +2112,17 @@
         "rateLimitPercentDelta": 7.0
       },
       {
+        "file": "rollout-2026-10-09T09-04-15-01a12168-700a-7f42-9dc5-7c64c1e29423.jsonl",
+        "sessionId": "01a12168-700a-7f42-9dc5-7c64c1e29423",
+        "startDate": "2026-10-09",
+        "endDate": "2026-10-16",
+        "project": "Counterpoint 2",
+        "model": "gpt-6-astra",
+        "tokens": 25801186,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 13.0
+      },
+      {
         "file": "rollout-2026-04-28T10-37-59-019dd52b-5148-7d53-8141-830e43f8a698.jsonl",
         "sessionId": "019dd52b-5148-7d53-8141-830e43f8a698",
         "startDate": "2026-04-28",
@@ -2128,17 +2154,6 @@
         "tokens": 21004793,
         "agentNickname": null,
         "rateLimitPercentDelta": 1.0
-      },
-      {
-        "file": "rollout-2026-05-18T09-39-54-019e3bf5-55fb-7072-860d-0484639c24f0.jsonl",
-        "sessionId": "019e3bf5-55fb-7072-860d-0484639c24f0",
-        "startDate": "2026-05-18",
-        "endDate": "2026-09-14",
-        "project": "how-do-i-give-you-access",
-        "model": "gpt-5.6-sol",
-        "tokens": 20740655,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 47.0
       }
     ],
     "threadFanouts": [

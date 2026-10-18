@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T15:06:29.559724+00:00",
+  "generatedAt": "2026-10-18T15:09:40.967359+00:00",
   "claude": {
     "daily": [
       {
@@ -147,540 +147,12 @@
   "codex": {
     "daily": [
       {
-        "date": "2025-11-06",
-        "tokens": 32530229
-      },
-      {
-        "date": "2025-11-07",
-        "tokens": 5660720
-      },
-      {
-        "date": "2025-11-08",
-        "tokens": 218842064
-      },
-      {
-        "date": "2025-11-09",
-        "tokens": 4786089
-      },
-      {
-        "date": "2025-11-10",
-        "tokens": 4407932
-      },
-      {
-        "date": "2025-11-11",
-        "tokens": 61969580
-      },
-      {
-        "date": "2025-11-12",
-        "tokens": 49370917
-      },
-      {
-        "date": "2025-11-13",
-        "tokens": 256676
-      },
-      {
-        "date": "2025-11-16",
-        "tokens": 15526886
-      },
-      {
-        "date": "2025-11-17",
-        "tokens": 11642568
-      },
-      {
-        "date": "2025-12-18",
-        "tokens": 18756096
-      },
-      {
-        "date": "2025-12-19",
-        "tokens": 1511929
-      },
-      {
-        "date": "2026-01-15",
-        "tokens": 16367795
-      },
-      {
-        "date": "2026-01-17",
-        "tokens": 4636998
-      },
-      {
-        "date": "2026-01-18",
-        "tokens": 5308905
-      },
-      {
-        "date": "2026-01-19",
-        "tokens": 42327709
-      },
-      {
-        "date": "2026-01-20",
-        "tokens": 35101589
-      },
-      {
-        "date": "2026-01-21",
-        "tokens": 14592754
-      },
-      {
-        "date": "2026-01-22",
-        "tokens": 50161251
-      },
-      {
-        "date": "2026-01-23",
-        "tokens": 26738803
-      },
-      {
-        "date": "2026-01-24",
-        "tokens": 15241971
-      },
-      {
-        "date": "2026-01-28",
-        "tokens": 15355662
-      },
-      {
-        "date": "2026-01-31",
-        "tokens": 16440668
-      },
-      {
-        "date": "2026-02-01",
-        "tokens": 5090654
-      },
-      {
-        "date": "2026-02-04",
-        "tokens": 976250
-      },
-      {
-        "date": "2026-02-07",
-        "tokens": 4878715
-      },
-      {
-        "date": "2026-02-08",
-        "tokens": 1943720
-      },
-      {
-        "date": "2026-02-09",
-        "tokens": 2929146
-      },
-      {
-        "date": "2026-02-12",
-        "tokens": 879201
-      },
-      {
-        "date": "2026-02-13",
-        "tokens": 4977078
-      },
-      {
-        "date": "2026-04-28",
-        "tokens": 49065955
-      },
-      {
-        "date": "2026-04-29",
-        "tokens": 3709858
-      },
-      {
-        "date": "2026-04-30",
-        "tokens": 1236708
-      },
-      {
-        "date": "2026-05-01",
-        "tokens": 21756501
-      },
-      {
-        "date": "2026-05-02",
-        "tokens": 5083286
-      },
-      {
-        "date": "2026-05-03",
-        "tokens": 4944249
-      },
-      {
-        "date": "2026-05-04",
-        "tokens": 22752988
-      },
-      {
-        "date": "2026-05-05",
-        "tokens": 21398187
-      },
-      {
-        "date": "2026-05-06",
-        "tokens": 37054876
-      },
-      {
-        "date": "2026-05-07",
-        "tokens": 3132824
-      },
-      {
-        "date": "2026-05-08",
-        "tokens": 21354635
-      },
-      {
-        "date": "2026-05-09",
-        "tokens": 17112301
-      },
-      {
-        "date": "2026-05-10",
-        "tokens": 5939871
-      },
-      {
-        "date": "2026-05-11",
-        "tokens": 7986624
-      },
-      {
-        "date": "2026-05-12",
-        "tokens": 7516661
-      },
-      {
-        "date": "2026-05-13",
-        "tokens": 5752866
-      },
-      {
-        "date": "2026-05-14",
-        "tokens": 46290779
-      },
-      {
-        "date": "2026-05-15",
-        "tokens": 6097648
-      },
-      {
-        "date": "2026-05-16",
-        "tokens": 1936132
-      },
-      {
-        "date": "2026-05-18",
-        "tokens": 28394562
-      },
-      {
-        "date": "2026-05-19",
-        "tokens": 1941248
-      },
-      {
-        "date": "2026-05-20",
-        "tokens": 7873199
-      },
-      {
-        "date": "2026-05-21",
-        "tokens": 43813242
-      },
-      {
-        "date": "2026-05-22",
-        "tokens": 54968047
-      },
-      {
-        "date": "2026-05-23",
-        "tokens": 15449219
-      },
-      {
-        "date": "2026-06-03",
-        "tokens": 103036158
-      },
-      {
-        "date": "2026-06-04",
-        "tokens": 6424929
-      },
-      {
-        "date": "2026-06-05",
-        "tokens": 41704501
-      },
-      {
-        "date": "2026-06-06",
-        "tokens": 18147523
-      },
-      {
-        "date": "2026-06-08",
-        "tokens": 27601016
-      },
-      {
-        "date": "2026-06-09",
-        "tokens": 6318879
-      },
-      {
-        "date": "2026-06-10",
-        "tokens": 1657111
-      },
-      {
-        "date": "2026-06-11",
-        "tokens": 4896803
-      },
-      {
-        "date": "2026-06-12",
-        "tokens": 6959814
-      },
-      {
-        "date": "2026-06-13",
-        "tokens": 1784369
-      },
-      {
-        "date": "2026-06-15",
-        "tokens": 376714
-      },
-      {
-        "date": "2026-06-16",
-        "tokens": 622590
-      },
-      {
-        "date": "2026-06-21",
-        "tokens": 24081431
-      },
-      {
-        "date": "2026-06-22",
-        "tokens": 636412
-      },
-      {
-        "date": "2026-06-23",
-        "tokens": 15950205
-      },
-      {
-        "date": "2026-06-26",
-        "tokens": 1449504
-      },
-      {
-        "date": "2026-06-29",
-        "tokens": 600555
-      },
-      {
-        "date": "2026-06-30",
-        "tokens": 814948
-      },
-      {
-        "date": "2026-07-02",
-        "tokens": 983930
-      },
-      {
-        "date": "2026-07-03",
-        "tokens": 2397742
-      },
-      {
-        "date": "2026-07-05",
-        "tokens": 709450
-      },
-      {
-        "date": "2026-07-06",
-        "tokens": 301510
-      },
-      {
-        "date": "2026-07-09",
-        "tokens": 1528369
-      },
-      {
-        "date": "2026-07-10",
-        "tokens": 5795995
-      },
-      {
-        "date": "2026-07-30",
-        "tokens": 21262338
-      },
-      {
-        "date": "2026-07-31",
-        "tokens": 968072
-      },
-      {
-        "date": "2026-08-01",
-        "tokens": 173343149
-      },
-      {
-        "date": "2026-08-02",
-        "tokens": 2941784
-      },
-      {
-        "date": "2026-08-05",
-        "tokens": 14690100
-      },
-      {
-        "date": "2026-08-06",
-        "tokens": 175258057
-      },
-      {
-        "date": "2026-08-07",
-        "tokens": 162255929
-      },
-      {
-        "date": "2026-08-08",
-        "tokens": 214355
-      },
-      {
-        "date": "2026-08-10",
-        "tokens": 34376280
-      },
-      {
-        "date": "2026-08-11",
-        "tokens": 1364640
-      },
-      {
-        "date": "2026-08-12",
-        "tokens": 11207844
-      },
-      {
-        "date": "2026-08-13",
-        "tokens": 80364611
-      },
-      {
-        "date": "2026-08-14",
-        "tokens": 15382852
-      },
-      {
-        "date": "2026-08-15",
-        "tokens": 17232038
-      },
-      {
-        "date": "2026-08-17",
-        "tokens": 121053511
-      },
-      {
-        "date": "2026-08-18",
-        "tokens": 240967870
-      },
-      {
-        "date": "2026-08-19",
-        "tokens": 19078764
-      },
-      {
-        "date": "2026-08-20",
-        "tokens": 17628893
-      },
-      {
-        "date": "2026-08-21",
-        "tokens": 157788859
-      },
-      {
-        "date": "2026-08-22",
-        "tokens": 30926712
-      },
-      {
-        "date": "2026-08-23",
-        "tokens": 208855
-      },
-      {
-        "date": "2026-08-24",
-        "tokens": 47294179
-      },
-      {
-        "date": "2026-08-25",
-        "tokens": 57322425
-      },
-      {
-        "date": "2026-08-26",
-        "tokens": 182899700
-      },
-      {
-        "date": "2026-08-27",
-        "tokens": 107545737
-      },
-      {
-        "date": "2026-08-28",
-        "tokens": 155332905
-      },
-      {
-        "date": "2026-08-29",
-        "tokens": 15785159
-      },
-      {
-        "date": "2026-08-30",
-        "tokens": 87326216
-      },
-      {
-        "date": "2026-08-31",
-        "tokens": 100309752
-      },
-      {
-        "date": "2026-09-01",
-        "tokens": 69786280
-      },
-      {
-        "date": "2026-09-02",
-        "tokens": 91655456
-      },
-      {
-        "date": "2026-09-03",
-        "tokens": 94821366
-      },
-      {
-        "date": "2026-09-04",
-        "tokens": 51113289
-      },
-      {
-        "date": "2026-09-06",
-        "tokens": 153531
-      },
-      {
-        "date": "2026-09-07",
-        "tokens": 33632938
-      },
-      {
-        "date": "2026-09-08",
-        "tokens": 17962640
-      },
-      {
-        "date": "2026-09-09",
-        "tokens": 10855164
-      },
-      {
-        "date": "2026-09-10",
-        "tokens": 13862219
-      },
-      {
-        "date": "2026-09-11",
-        "tokens": 67925538
-      },
-      {
-        "date": "2026-09-12",
-        "tokens": 48540200
-      },
-      {
-        "date": "2026-09-14",
-        "tokens": 28577320
-      },
-      {
-        "date": "2026-09-15",
-        "tokens": 6489794
-      },
-      {
-        "date": "2026-09-16",
-        "tokens": 38167669
-      },
-      {
-        "date": "2026-09-17",
-        "tokens": 66735678
-      },
-      {
-        "date": "2026-09-18",
-        "tokens": 169093864
-      },
-      {
-        "date": "2026-09-19",
-        "tokens": 19061623
-      },
-      {
-        "date": "2026-09-21",
-        "tokens": 48587268
-      },
-      {
-        "date": "2026-09-25",
-        "tokens": 6761059
-      },
-      {
-        "date": "2026-09-26",
-        "tokens": 1067792
-      },
-      {
-        "date": "2026-09-27",
-        "tokens": 5620207
-      },
-      {
         "date": "2026-09-29",
-        "tokens": 7123199
-      },
-      {
-        "date": "2026-10-02",
-        "tokens": 6639170
-      },
-      {
-        "date": "2026-10-06",
-        "tokens": 9879779
+        "tokens": 267609
       },
       {
         "date": "2026-10-07",
-        "tokens": 13311874
-      },
-      {
-        "date": "2026-10-08",
-        "tokens": 5738833
+        "tokens": 3387070
       },
       {
         "date": "2026-10-09",
@@ -692,1101 +164,66 @@
       },
       {
         "date": "2026-10-12",
-        "tokens": 69285290
+        "tokens": 56211431
       },
       {
         "date": "2026-10-13",
-        "tokens": 13080205
+        "tokens": 12141954
       },
       {
         "date": "2026-10-14",
-        "tokens": 18633171
+        "tokens": 14216397
       },
       {
         "date": "2026-10-15",
-        "tokens": 3866709
+        "tokens": 3679583
       },
       {
         "date": "2026-10-16",
-        "tokens": 35515034
+        "tokens": 32228095
+      },
+      {
+        "date": "2026-10-17",
+        "tokens": 61201902
       }
     ],
     "byModel": [
       {
-        "model": "gpt-5.6-terra",
-        "tokens": 1456979145
-      },
-      {
-        "model": "gpt-5.6-sol",
-        "tokens": 1046617040
-      },
-      {
-        "model": "gpt-5.5",
-        "tokens": 786028169
-      },
-      {
         "model": "gpt-6-astra",
-        "tokens": 531147549
+        "tokens": 126098065
       },
       {
-        "model": "gpt-5-codex",
-        "tokens": 404993661
-      },
-      {
-        "model": "gpt-5.2-codex",
-        "tokens": 242944076
-      },
-      {
-        "model": "gpt-5.1-codex-max",
-        "tokens": 41272818
+        "model": "gpt-6.1-sol",
+        "tokens": 59125648
       },
       {
         "model": "codex-auto-review",
-        "tokens": 26232418
-      },
-      {
-        "model": "gpt-5.6-luna",
-        "tokens": 180274
+        "tokens": 2076254
       }
     ],
     "byProject": [
       {
         "project": "Counterpoint 2",
-        "tokens": 1864957959
-      },
-      {
-        "project": "ios-app1",
-        "tokens": 891025805
-      },
-      {
-        "project": "how-do-i-give-you-access",
-        "tokens": 571253435
-      },
-      {
-        "project": "repos",
-        "tokens": 465382546
-      },
-      {
-        "project": "Job Search",
-        "tokens": 248688793
-      },
-      {
-        "project": "Science",
-        "tokens": 130341084
-      },
-      {
-        "project": "sda-tennis-access",
-        "tokens": 61331309
-      },
-      {
-        "project": "you-are-going-to-help-me",
-        "tokens": 54227397
-      },
-      {
-        "project": "New project",
-        "tokens": 53391810
-      },
-      {
-        "project": "manager-interview-chatgpt-conversation-6a31a79d-294c",
-        "tokens": 52883872
-      },
-      {
-        "project": "Oceancrest software",
-        "tokens": 26099024
-      },
-      {
-        "project": "sites-plugin-sites-openai-bundled-create",
-        "tokens": 21307964
-      },
-      {
-        "project": "g-p-6a236b87bdd48191b81769ad627f68ea",
-        "tokens": 17793116
-      },
-      {
-        "project": "Studying 2",
-        "tokens": 16095633
-      },
-      {
-        "project": "server",
-        "tokens": 12481134
-      },
-      {
-        "project": "g-p-6ad1ad26e93c81919c3667ff260d16e1",
-        "tokens": 11216348
-      },
-      {
-        "project": "AI Conference",
-        "tokens": 6206642
-      },
-      {
-        "project": "resume",
-        "tokens": 5865790
-      },
-      {
-        "project": "what",
-        "tokens": 5054629
-      },
-      {
-        "project": "New project 2",
-        "tokens": 4305348
-      },
-      {
-        "project": "hel",
-        "tokens": 4011001
+        "tokens": 111896538
       },
       {
         "project": "referenced-chatgpt-conversation-this-is-an",
-        "tokens": 3111046
+        "tokens": 61201902
+      },
+      {
+        "project": "g-p-6ad1ad26e93c81919c3667ff260d16e1",
+        "tokens": 11196814
       },
       {
         "project": "anal",
-        "tokens": 2760072
+        "tokens": 2737104
       },
       {
-        "project": "every-day-we-have-a-script",
-        "tokens": 2040785
-      },
-      {
-        "project": "Family dashboard",
-        "tokens": 1909409
-      },
-      {
-        "project": "look-for-a-file-called-unix",
-        "tokens": 780413
-      },
-      {
-        "project": "how-is-codex-app-different-from",
-        "tokens": 602512
-      },
-      {
-        "project": "i-was-flying-on-jetblue-and",
-        "tokens": 352162
-      },
-      {
-        "project": "g-p-6a77f0ddec188191b9660c9132ff6fee",
-        "tokens": 311150
-      },
-      {
-        "project": "can-x20",
-        "tokens": 308597
-      },
-      {
-        "project": "i-need-to-delay-jury-duty",
-        "tokens": 165546
-      },
-      {
-        "project": "my",
-        "tokens": 89495
-      },
-      {
-        "project": "ex",
-        "tokens": 43324
+        "project": "Studying 2",
+        "tokens": 267609
       }
     ],
     "rateLimitHistory": [
-      {
-        "date": "2025-11-06",
-        "usedPercent": 38.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1762430288
-      },
-      {
-        "date": "2025-11-07",
-        "usedPercent": 4.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1762549398
-      },
-      {
-        "date": "2025-11-08",
-        "usedPercent": 100.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1762584927
-      },
-      {
-        "date": "2025-11-09",
-        "usedPercent": 24.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1762654789
-      },
-      {
-        "date": "2025-11-10",
-        "usedPercent": 2.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1762759488
-      },
-      {
-        "date": "2025-11-11",
-        "usedPercent": 29.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1762899400
-      },
-      {
-        "date": "2025-11-12",
-        "usedPercent": 28.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1762917407
-      },
-      {
-        "date": "2025-11-13",
-        "usedPercent": 3.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1763014203
-      },
-      {
-        "date": "2025-11-16",
-        "usedPercent": 17.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1763326946
-      },
-      {
-        "date": "2025-11-17",
-        "usedPercent": 6.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1763365109
-      },
-      {
-        "date": "2025-12-18",
-        "usedPercent": 37.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1766090670
-      },
-      {
-        "date": "2025-12-19",
-        "usedPercent": 6.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1766134074
-      },
-      {
-        "date": "2026-01-15",
-        "usedPercent": 18.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1768476943
-      },
-      {
-        "date": "2026-01-17",
-        "usedPercent": 1.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1768645132
-      },
-      {
-        "date": "2026-01-18",
-        "usedPercent": 13.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1768727225
-      },
-      {
-        "date": "2026-01-19",
-        "usedPercent": 26.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1768855705
-      },
-      {
-        "date": "2026-01-20",
-        "usedPercent": 15.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1768895120
-      },
-      {
-        "date": "2026-01-21",
-        "usedPercent": 9.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1768992955
-      },
-      {
-        "date": "2026-01-22",
-        "usedPercent": 29.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1769058051
-      },
-      {
-        "date": "2026-01-23",
-        "usedPercent": 6.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1769143787
-      },
-      {
-        "date": "2026-01-24",
-        "usedPercent": 10.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1769248781
-      },
-      {
-        "date": "2026-01-28",
-        "usedPercent": 10.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1769591987
-      },
-      {
-        "date": "2026-01-31",
-        "usedPercent": 7.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1769893153
-      },
-      {
-        "date": "2026-02-01",
-        "usedPercent": 2.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1769919947
-      },
-      {
-        "date": "2026-02-04",
-        "usedPercent": 0.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1770186623
-      },
-      {
-        "date": "2026-02-07",
-        "usedPercent": 8.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1770506321
-      },
-      {
-        "date": "2026-02-08",
-        "usedPercent": 1.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1770530651
-      },
-      {
-        "date": "2026-02-09",
-        "usedPercent": 4.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1770630670
-      },
-      {
-        "date": "2026-02-12",
-        "usedPercent": 1.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1770892953
-      },
-      {
-        "date": "2026-02-13",
-        "usedPercent": 2.0,
-        "planType": null,
-        "windowMinutes": 300,
-        "resetsAt": 1770982049
-      },
-      {
-        "date": "2026-04-28",
-        "usedPercent": 98.0,
-        "planType": "plus",
-        "windowMinutes": 300,
-        "resetsAt": 1777415587
-      },
-      {
-        "date": "2026-04-29",
-        "usedPercent": 16.0,
-        "planType": "plus",
-        "windowMinutes": 300,
-        "resetsAt": 1777454722
-      },
-      {
-        "date": "2026-04-30",
-        "usedPercent": 2.0,
-        "planType": "plus",
-        "windowMinutes": 300,
-        "resetsAt": 1777610025
-      },
-      {
-        "date": "2026-05-01",
-        "usedPercent": 78.0,
-        "planType": "plus",
-        "windowMinutes": 300,
-        "resetsAt": 1777610025
-      },
-      {
-        "date": "2026-05-02",
-        "usedPercent": 27.0,
-        "planType": "plus",
-        "windowMinutes": 300,
-        "resetsAt": 1777767822
-      },
-      {
-        "date": "2026-05-03",
-        "usedPercent": 18.0,
-        "planType": "plus",
-        "windowMinutes": 300,
-        "resetsAt": 1777867407
-      },
-      {
-        "date": "2026-05-04",
-        "usedPercent": 94.0,
-        "planType": "plus",
-        "windowMinutes": 300,
-        "resetsAt": 1777937593
-      },
-      {
-        "date": "2026-05-05",
-        "usedPercent": 42.0,
-        "planType": "plus",
-        "windowMinutes": 300,
-        "resetsAt": 1777965353
-      },
-      {
-        "date": "2026-05-06",
-        "usedPercent": 97.0,
-        "planType": "plus",
-        "windowMinutes": 300,
-        "resetsAt": 1778041966
-      },
-      {
-        "date": "2026-05-07",
-        "usedPercent": 38.0,
-        "planType": "plus",
-        "windowMinutes": 300,
-        "resetsAt": 1778119566
-      },
-      {
-        "date": "2026-05-08",
-        "usedPercent": 74.0,
-        "planType": "plus",
-        "windowMinutes": 300,
-        "resetsAt": 1778291123
-      },
-      {
-        "date": "2026-05-09",
-        "usedPercent": 59.0,
-        "planType": "plus",
-        "windowMinutes": 300,
-        "resetsAt": 1778362631
-      },
-      {
-        "date": "2026-05-10",
-        "usedPercent": 22.0,
-        "planType": "plus",
-        "windowMinutes": 300,
-        "resetsAt": 1778456152
-      },
-      {
-        "date": "2026-05-11",
-        "usedPercent": 32.0,
-        "planType": "plus",
-        "windowMinutes": 300,
-        "resetsAt": 1778535872
-      },
-      {
-        "date": "2026-05-12",
-        "usedPercent": 26.0,
-        "planType": "plus",
-        "windowMinutes": 300,
-        "resetsAt": 1778621769
-      },
-      {
-        "date": "2026-05-13",
-        "usedPercent": 20.0,
-        "planType": "plus",
-        "windowMinutes": 300,
-        "resetsAt": 1778715953
-      },
-      {
-        "date": "2026-05-14",
-        "usedPercent": 98.0,
-        "planType": "plus",
-        "windowMinutes": 300,
-        "resetsAt": 1778795361
-      },
-      {
-        "date": "2026-05-15",
-        "usedPercent": 25.0,
-        "planType": "plus",
-        "windowMinutes": 300,
-        "resetsAt": 1778880582
-      },
-      {
-        "date": "2026-05-16",
-        "usedPercent": 3.0,
-        "planType": "plus",
-        "windowMinutes": 300,
-        "resetsAt": 1778908123
-      },
-      {
-        "date": "2026-05-18",
-        "usedPercent": 93.0,
-        "planType": "plus",
-        "windowMinutes": 300,
-        "resetsAt": 1779140399
-      },
-      {
-        "date": "2026-05-19",
-        "usedPercent": 3.0,
-        "planType": "plus",
-        "windowMinutes": 300,
-        "resetsAt": 1779238159
-      },
-      {
-        "date": "2026-05-20",
-        "usedPercent": 22.0,
-        "planType": "plus",
-        "windowMinutes": 300,
-        "resetsAt": 1779311849
-      },
-      {
-        "date": "2026-05-21",
-        "usedPercent": 100.0,
-        "planType": "plus",
-        "windowMinutes": 300,
-        "resetsAt": 1779401357
-      },
-      {
-        "date": "2026-05-22",
-        "usedPercent": 12.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1779484599
-      },
-      {
-        "date": "2026-05-23",
-        "usedPercent": 6.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1779527139
-      },
-      {
-        "date": "2026-06-03",
-        "usedPercent": 30.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1780514700
-      },
-      {
-        "date": "2026-06-04",
-        "usedPercent": 17.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1780540787
-      },
-      {
-        "date": "2026-06-05",
-        "usedPercent": 19.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1780716982
-      },
-      {
-        "date": "2026-06-06",
-        "usedPercent": 30.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1780716989
-      },
-      {
-        "date": "2026-06-08",
-        "usedPercent": 20.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1780907978
-      },
-      {
-        "date": "2026-06-09",
-        "usedPercent": 4.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1781034193
-      },
-      {
-        "date": "2026-06-10",
-        "usedPercent": 1.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1781151458
-      },
-      {
-        "date": "2026-06-11",
-        "usedPercent": 2.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1781151458
-      },
-      {
-        "date": "2026-06-12",
-        "usedPercent": 6.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1781237324
-      },
-      {
-        "date": "2026-06-13",
-        "usedPercent": 3.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1781404250
-      },
-      {
-        "date": "2026-06-15",
-        "usedPercent": 0.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1781559083
-      },
-      {
-        "date": "2026-06-16",
-        "usedPercent": 1.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1781659030
-      },
-      {
-        "date": "2026-06-21",
-        "usedPercent": 15.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1782074766
-      },
-      {
-        "date": "2026-06-22",
-        "usedPercent": 1.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1782158818
-      },
-      {
-        "date": "2026-06-23",
-        "usedPercent": 11.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1782191288
-      },
-      {
-        "date": "2026-06-26",
-        "usedPercent": 2.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1782511455
-      },
-      {
-        "date": "2026-06-29",
-        "usedPercent": 1.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1782769589
-      },
-      {
-        "date": "2026-06-30",
-        "usedPercent": 2.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1782850207
-      },
-      {
-        "date": "2026-07-02",
-        "usedPercent": 1.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1783041491
-      },
-      {
-        "date": "2026-07-03",
-        "usedPercent": 2.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1783114380
-      },
-      {
-        "date": "2026-07-05",
-        "usedPercent": 2.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1783291630
-      },
-      {
-        "date": "2026-07-06",
-        "usedPercent": 1.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1783380860
-      },
-      {
-        "date": "2026-07-09",
-        "usedPercent": 2.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1783653909
-      },
-      {
-        "date": "2026-07-10",
-        "usedPercent": 6.0,
-        "planType": "prolite",
-        "windowMinutes": 300,
-        "resetsAt": 1783653909
-      },
-      {
-        "date": "2026-07-30",
-        "usedPercent": 3.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1785986738
-      },
-      {
-        "date": "2026-07-31",
-        "usedPercent": 3.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1785986738
-      },
-      {
-        "date": "2026-08-01",
-        "usedPercent": 12.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1785986738
-      },
-      {
-        "date": "2026-08-02",
-        "usedPercent": 13.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1786160234
-      },
-      {
-        "date": "2026-08-05",
-        "usedPercent": 15.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1786160234
-      },
-      {
-        "date": "2026-08-06",
-        "usedPercent": 70.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1786160234
-      },
-      {
-        "date": "2026-08-07",
-        "usedPercent": 95.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1786160234
-      },
-      {
-        "date": "2026-08-08",
-        "usedPercent": 12.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1786669299
-      },
-      {
-        "date": "2026-08-10",
-        "usedPercent": 7.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1786990279
-      },
-      {
-        "date": "2026-08-11",
-        "usedPercent": 0.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1787094945
-      },
-      {
-        "date": "2026-08-12",
-        "usedPercent": 3.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1787094953
-      },
-      {
-        "date": "2026-08-13",
-        "usedPercent": 14.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1787243566
-      },
-      {
-        "date": "2026-08-14",
-        "usedPercent": 17.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1787243566
-      },
-      {
-        "date": "2026-08-15",
-        "usedPercent": 21.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1787243566
-      },
-      {
-        "date": "2026-08-17",
-        "usedPercent": 42.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1787243566
-      },
-      {
-        "date": "2026-08-18",
-        "usedPercent": 94.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1787243566
-      },
-      {
-        "date": "2026-08-19",
-        "usedPercent": 98.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1787243566
-      },
-      {
-        "date": "2026-08-20",
-        "usedPercent": 98.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1787243566
-      },
-      {
-        "date": "2026-08-21",
-        "usedPercent": 34.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1787855094
-      },
-      {
-        "date": "2026-08-22",
-        "usedPercent": 40.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1787855094
-      },
-      {
-        "date": "2026-08-23",
-        "usedPercent": 40.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1787855094
-      },
-      {
-        "date": "2026-08-24",
-        "usedPercent": 9.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1788188302
-      },
-      {
-        "date": "2026-08-25",
-        "usedPercent": 12.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1788283081
-      },
-      {
-        "date": "2026-08-26",
-        "usedPercent": 50.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1788283081
-      },
-      {
-        "date": "2026-08-27",
-        "usedPercent": 64.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1788283081
-      },
-      {
-        "date": "2026-08-28",
-        "usedPercent": 43.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1788453635
-      },
-      {
-        "date": "2026-08-29",
-        "usedPercent": 46.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1788453635
-      },
-      {
-        "date": "2026-08-30",
-        "usedPercent": 20.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1788702313
-      },
-      {
-        "date": "2026-08-31",
-        "usedPercent": 20.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1788786991
-      },
-      {
-        "date": "2026-09-01",
-        "usedPercent": 35.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1788786991
-      },
-      {
-        "date": "2026-09-02",
-        "usedPercent": 56.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1788786991
-      },
-      {
-        "date": "2026-09-03",
-        "usedPercent": 84.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1788786991
-      },
-      {
-        "date": "2026-09-04",
-        "usedPercent": 98.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1788786991
-      },
-      {
-        "date": "2026-09-06",
-        "usedPercent": 98.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1788786992
-      },
-      {
-        "date": "2026-09-07",
-        "usedPercent": 100.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1788786992
-      },
-      {
-        "date": "2026-09-08",
-        "usedPercent": 4.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1789489602
-      },
-      {
-        "date": "2026-09-09",
-        "usedPercent": 9.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1789489602
-      },
-      {
-        "date": "2026-09-10",
-        "usedPercent": 16.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1789489602
-      },
-      {
-        "date": "2026-09-11",
-        "usedPercent": 52.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1789489602
-      },
-      {
-        "date": "2026-09-12",
-        "usedPercent": 53.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1789489602
-      },
-      {
-        "date": "2026-09-14",
-        "usedPercent": 53.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1789837376
-      },
-      {
-        "date": "2026-09-15",
-        "usedPercent": 55.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1789837375
-      },
-      {
-        "date": "2026-09-16",
-        "usedPercent": 86.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1789837375
-      },
-      {
-        "date": "2026-09-17",
-        "usedPercent": 100.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1789837375
-      },
-      {
-        "date": "2026-09-18",
-        "usedPercent": 100.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1790290338
-      },
-      {
-        "date": "2026-09-19",
-        "usedPercent": 61.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1790357162
-      },
-      {
-        "date": "2026-09-21",
-        "usedPercent": 100.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1790357162
-      },
-      {
-        "date": "2026-09-25",
-        "usedPercent": 6.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1790964093
-      },
-      {
-        "date": "2026-09-26",
-        "usedPercent": 7.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1790964093
-      },
-      {
-        "date": "2026-09-27",
-        "usedPercent": 4.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1791135058
-      },
       {
         "date": "2026-09-29",
         "usedPercent": 10.0,
@@ -1795,29 +232,8 @@
         "resetsAt": 1791135058
       },
       {
-        "date": "2026-10-02",
-        "usedPercent": 17.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1791135058
-      },
-      {
-        "date": "2026-10-06",
-        "usedPercent": 9.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1791859696
-      },
-      {
         "date": "2026-10-07",
-        "usedPercent": 12.0,
-        "planType": "prolite",
-        "windowMinutes": 10080,
-        "resetsAt": 1791950581
-      },
-      {
-        "date": "2026-10-08",
-        "usedPercent": 17.0,
+        "usedPercent": 5.0,
         "planType": "prolite",
         "windowMinutes": 10080,
         "resetsAt": 1791950581
@@ -1870,136 +286,33 @@
         "planType": "prolite",
         "windowMinutes": 10080,
         "resetsAt": 1792681013
+      },
+      {
+        "date": "2026-10-17",
+        "usedPercent": 7.0,
+        "planType": "prolite",
+        "windowMinutes": 10080,
+        "resetsAt": 1792879632
       }
     ],
     "currentWindow": {
-      "observedAt": "2026-10-16T05:56:13.604Z",
-      "usedPercent": 31.0,
+      "observedAt": "2026-10-17T23:28:30.626Z",
+      "usedPercent": 7.0,
       "planType": "prolite",
       "windowMinutes": 10080,
-      "resetsAt": 1792681013
+      "resetsAt": 1792879632
     },
     "topSessions": [
       {
-        "file": "rollout-2026-07-31T20-17-57-019fbb54-1318-7640-9c6f-eb7177a67a77.jsonl",
-        "sessionId": "019fbb54-1318-7640-9c6f-eb7177a67a77",
-        "startDate": "2026-08-01",
-        "endDate": "2026-08-19",
-        "project": "Counterpoint 2",
-        "model": "gpt-5.6-terra",
-        "tokens": 562004963,
+        "file": "rollout-2026-10-17T15-07-08-01a14be7-8d01-7750-9a70-8542773fd79f.jsonl",
+        "sessionId": "01a14be7-8d01-7750-9a70-8542773fd79f",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-17",
+        "project": "referenced-chatgpt-conversation-this-is-an",
+        "model": "gpt-6.1-sol",
+        "tokens": 59125648,
         "agentNickname": null,
-        "rateLimitPercentDelta": 88.0
-      },
-      {
-        "file": "rollout-2026-01-17T20-02-54-019bcf45-2756-7a43-94bb-cf59c489b83a.jsonl",
-        "sessionId": "019bcf45-2756-7a43-94bb-cf59c489b83a",
-        "startDate": "2026-01-18",
-        "endDate": "2026-02-04",
-        "project": "ios-app1",
-        "model": "gpt-5.2-codex",
-        "tokens": 227336216,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 0.0
-      },
-      {
-        "file": "rollout-2026-08-14T15-18-04-01a0025a-9033-7a80-b2b3-af380c438f36.jsonl",
-        "sessionId": "01a0025a-9033-7a80-b2b3-af380c438f36",
-        "startDate": "2026-08-14",
-        "endDate": "2026-08-25",
-        "project": "Counterpoint 2",
-        "model": "gpt-5.6-terra",
-        "tokens": 222566499,
-        "agentNickname": null,
-        "rateLimitPercentDelta": -10.0
-      },
-      {
-        "file": "rollout-2026-09-15T20-20-22-01a0a83a-d316-7553-a6ca-e28671318998.jsonl",
-        "sessionId": "01a0a83a-d316-7553-a6ca-e28671318998",
-        "startDate": "2026-09-16",
-        "endDate": "2026-09-21",
-        "project": "repos",
-        "model": "gpt-5.6-sol",
-        "tokens": 208958349,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 40.0
-      },
-      {
-        "file": "rollout-2026-06-02T21-43-30-019e8bcb-32f4-7bd0-a6d9-176ad191bbbd.jsonl",
-        "sessionId": "019e8bcb-32f4-7bd0-a6d9-176ad191bbbd",
-        "startDate": "2026-06-03",
-        "endDate": "2026-06-06",
-        "project": "repos",
-        "model": "gpt-5.5",
-        "tokens": 139672221,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 0.0
-      },
-      {
-        "file": "rollout-2026-08-25T14-20-26-01a03acb-c02f-7a93-be21-b9c9160cab31.jsonl",
-        "sessionId": "01a03acb-c02f-7a93-be21-b9c9160cab31",
-        "startDate": "2026-08-25",
-        "endDate": "2026-09-21",
-        "project": "Counterpoint 2",
-        "model": "gpt-6-astra",
-        "tokens": 133725039,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 86.0
-      },
-      {
-        "file": "rollout-2026-08-10T15-37-27-019fedd2-ddeb-7da2-8026-665d48145394.jsonl",
-        "sessionId": "019fedd2-ddeb-7da2-8026-665d48145394",
-        "startDate": "2026-08-10",
-        "endDate": "2026-09-21",
-        "project": "Counterpoint 2",
-        "model": "gpt-6-astra",
-        "tokens": 124513665,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 89.0
-      },
-      {
-        "file": "rollout-2026-05-04T12-41-03-019df482-265a-74f1-8b99-01652cf1912f.jsonl",
-        "sessionId": "019df482-265a-74f1-8b99-01652cf1912f",
-        "startDate": "2026-05-04",
-        "endDate": "2026-07-31",
-        "project": "ios-app1",
-        "model": "gpt-5.5",
-        "tokens": 98235767,
-        "agentNickname": null,
-        "rateLimitPercentDelta": -52.0
-      },
-      {
-        "file": "rollout-2026-08-12T08-25-50-019ff694-6d48-75f3-b776-ecec1260015a.jsonl",
-        "sessionId": "019ff694-6d48-75f3-b776-ecec1260015a",
-        "startDate": "2026-08-12",
-        "endDate": "2026-09-17",
-        "project": "Science",
-        "model": "gpt-5.6-terra",
-        "tokens": 81470683,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 86.0
-      },
-      {
-        "file": "rollout-2026-05-06T21-55-40-019e00ca-a3ba-79e0-b2f9-6219d6e77df3.jsonl",
-        "sessionId": "019e00ca-a3ba-79e0-b2f9-6219d6e77df3",
-        "startDate": "2026-05-07",
-        "endDate": "2026-08-19",
-        "project": "sda-tennis-access",
-        "model": "gpt-5.5",
-        "tokens": 61315377,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 88.0
-      },
-      {
-        "file": "rollout-2026-07-31T18-07-27-019fbadc-99ac-7610-bb3e-d9e9d428cbdf.jsonl",
-        "sessionId": "019fbadc-99ac-7610-bb3e-d9e9d428cbdf",
-        "startDate": "2026-08-01",
-        "endDate": "2026-08-01",
-        "project": "Counterpoint 2",
-        "model": "gpt-5.6-terra",
-        "tokens": 56807822,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 2.0
+        "rateLimitPercentDelta": 7.0
       },
       {
         "file": "rollout-2026-10-09T09-01-46-01a12166-2d8e-7060-9836-b8ee2e6d9a72.jsonl",
@@ -2009,105 +322,6 @@
         "project": "Counterpoint 2",
         "model": "gpt-6-astra",
         "tokens": 56238449,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 7.0
-      },
-      {
-        "file": "rollout-2026-05-11T09-44-23-019e17ec-ec73-76c3-a2c3-5b97df1c7bed.jsonl",
-        "sessionId": "019e17ec-ec73-76c3-a2c3-5b97df1c7bed",
-        "startDate": "2026-05-11",
-        "endDate": "2026-05-20",
-        "project": "you-are-going-to-help-me",
-        "model": "gpt-5.5",
-        "tokens": 54227397,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 21.0
-      },
-      {
-        "file": "rollout-2026-05-14T09-53-36-019e2768-7139-7e52-89cf-d8b4977243b1.jsonl",
-        "sessionId": "019e2768-7139-7e52-89cf-d8b4977243b1",
-        "startDate": "2026-05-14",
-        "endDate": "2026-09-18",
-        "project": "New project",
-        "model": "gpt-5.6-terra",
-        "tokens": 53391810,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 48.0
-      },
-      {
-        "file": "rollout-2026-08-20T20-44-01-01a0226b-235d-7062-be31-02b9a42aeca4.jsonl",
-        "sessionId": "01a0226b-235d-7062-be31-02b9a42aeca4",
-        "startDate": "2026-08-21",
-        "endDate": "2026-09-02",
-        "project": "manager-interview-chatgpt-conversation-6a31a79d-294c",
-        "model": "gpt-5.6-terra",
-        "tokens": 52883872,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 42.0
-      },
-      {
-        "file": "rollout-2026-09-10T15-15-14-01a08d63-a9ed-7ec2-aaa9-ec7c59c1ddcd.jsonl",
-        "sessionId": "01a08d63-a9ed-7ec2-aaa9-ec7c59c1ddcd",
-        "startDate": "2026-09-10",
-        "endDate": "2026-09-12",
-        "project": "repos",
-        "model": "gpt-6-astra",
-        "tokens": 46870276,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 29.0
-      },
-      {
-        "file": "rollout-2026-06-20T22-15-19-019ee89a-cd37-7723-9a7c-bfeb2340b833.jsonl",
-        "sessionId": "019ee89a-cd37-7723-9a7c-bfeb2340b833",
-        "startDate": "2026-06-21",
-        "endDate": "2026-08-01",
-        "project": "repos",
-        "model": "gpt-5.5",
-        "tokens": 38910957,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 3.0
-      },
-      {
-        "file": "rollout-2026-08-10T11-14-06-019fece1-c437-76c2-b63b-1fb5c938ae11.jsonl",
-        "sessionId": "019fece1-c437-76c2-b63b-1fb5c938ae11",
-        "startDate": "2026-08-10",
-        "endDate": "2026-08-20",
-        "project": "Science",
-        "model": "gpt-5.5",
-        "tokens": 29060309,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 0.0
-      },
-      {
-        "file": "rollout-2025-11-16T08-00-10-019a8d65-2fc9-77d2-ab58-f1723b957a05.jsonl",
-        "sessionId": "019a8d65-2fc9-77d2-ab58-f1723b957a05",
-        "startDate": "2025-11-16",
-        "endDate": "2025-11-17",
-        "project": "ios-app1",
-        "model": "gpt-5-codex",
-        "tokens": 27169454,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 6.0
-      },
-      {
-        "file": "rollout-2026-09-18T13-19-57-01a0b62c-fe33-7c02-930e-d17a8a4172ed.jsonl",
-        "sessionId": "01a0b62c-fe33-7c02-930e-d17a8a4172ed",
-        "startDate": "2026-09-18",
-        "endDate": "2026-09-21",
-        "project": "Oceancrest software",
-        "model": "gpt-6-astra",
-        "tokens": 26099024,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 74.0
-      },
-      {
-        "file": "rollout-2026-08-25T10-16-24-01a039ec-552a-7c93-9956-ba7c0a666cc6.jsonl",
-        "sessionId": "01a039ec-552a-7c93-9956-ba7c0a666cc6",
-        "startDate": "2026-08-25",
-        "endDate": "2026-08-25",
-        "project": "Counterpoint 2",
-        "model": "gpt-5.6-terra",
-        "tokens": 25847167,
         "agentNickname": null,
         "rateLimitPercentDelta": 7.0
       },
@@ -2123,109 +337,238 @@
         "rateLimitPercentDelta": 13.0
       },
       {
-        "file": "rollout-2026-04-28T10-37-59-019dd52b-5148-7d53-8141-830e43f8a698.jsonl",
-        "sessionId": "019dd52b-5148-7d53-8141-830e43f8a698",
-        "startDate": "2026-04-28",
-        "endDate": "2026-04-28",
-        "project": "ios-app1",
-        "model": "gpt-5.5",
-        "tokens": 24762197,
+        "file": "rollout-2026-10-14T07-25-50-01a13ace-2385-7173-a8e7-77105a57f79d.jsonl",
+        "sessionId": "01a13ace-2385-7173-a8e7-77105a57f79d",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-15",
+        "project": "Counterpoint 2",
+        "model": "gpt-6-astra",
+        "tokens": 12576321,
         "agentNickname": null,
-        "rateLimitPercentDelta": 91.0
+        "rateLimitPercentDelta": -9.0
       },
       {
-        "file": "rollout-2026-04-28T11-19-15-019dd551-1a82-73c3-8076-7d84145b18d5.jsonl",
-        "sessionId": "019dd551-1a82-73c3-8076-7d84145b18d5",
-        "startDate": "2026-04-28",
-        "endDate": "2026-04-28",
-        "project": "ios-app1",
-        "model": "gpt-5.5",
-        "tokens": 23932120,
+        "file": "rollout-2026-10-15T21-51-01-01a1430c-97a1-7f81-b8c4-e3dda2da505b.jsonl",
+        "sessionId": "01a1430c-97a1-7f81-b8c4-e3dda2da505b",
+        "startDate": "2026-10-16",
+        "endDate": "2026-10-16",
+        "project": "g-p-6ad1ad26e93c81919c3667ff260d16e1",
+        "model": "gpt-6-astra",
+        "tokens": 11196814,
         "agentNickname": null,
-        "rateLimitPercentDelta": 33.0
+        "rateLimitPercentDelta": 18.0
       },
       {
-        "file": "rollout-2026-01-14T22-33-17-019bc05b-c07f-74c0-a143-679b7dced4d9.jsonl",
-        "sessionId": "019bc05b-c07f-74c0-a143-679b7dced4d9",
-        "startDate": "2026-01-15",
-        "endDate": "2026-01-17",
-        "project": "ios-app1",
-        "model": "gpt-5.1-codex-max",
-        "tokens": 21004793,
+        "file": "rollout-2026-10-06T21-04-17-01a11488-921e-7473-81a7-8e873bf5d319.jsonl",
+        "sessionId": "01a11488-921e-7473-81a7-8e873bf5d319",
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-13",
+        "project": "Counterpoint 2",
+        "model": "gpt-6-astra",
+        "tokens": 7486392,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 11.0
+      },
+      {
+        "file": "rollout-2026-10-11T20-51-28-01a12e3c-a34f-7743-b794-9b9428036804.jsonl",
+        "sessionId": "01a12e3c-a34f-7743-b794-9b9428036804",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-12",
+        "project": "Counterpoint 2",
+        "model": "gpt-6-astra",
+        "tokens": 7053875,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 6.0
+      },
+      {
+        "file": "rollout-2026-10-13T09-33-06-01a1361c-4b8c-7310-a8ea-8a04394fe9e8.jsonl",
+        "sessionId": "01a1361c-4b8c-7310-a8ea-8a04394fe9e8",
+        "startDate": "2026-10-13",
+        "endDate": "2026-10-13",
+        "project": "anal",
+        "model": "gpt-6-astra",
+        "tokens": 2737104,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 3.0
+      },
+      {
+        "file": "rollout-2026-10-14T08-43-14-01a13b14-fec8-74c2-ae60-da86a0c42624.jsonl",
+        "sessionId": "01a13b14-fec8-74c2-ae60-da86a0c42624",
+        "startDate": "2026-10-14",
+        "endDate": "2026-10-16",
+        "project": "Counterpoint 2",
+        "model": "gpt-6-astra",
+        "tokens": 1594434,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 6.0
+      },
+      {
+        "file": "rollout-2026-10-17T15-54-37-01a14c13-047c-7253-a00c-8397f3cf4fb8.jsonl",
+        "sessionId": "01a14c13-047c-7253-a00c-8397f3cf4fb8",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-17",
+        "project": "referenced-chatgpt-conversation-this-is-an",
+        "model": "codex-auto-review",
+        "tokens": 923767,
         "agentNickname": null,
         "rateLimitPercentDelta": 1.0
+      },
+      {
+        "file": "rollout-2026-10-11T19-08-13-01a12dde-1abf-7eb3-8179-692ef74467bf.jsonl",
+        "sessionId": "01a12166-2d8e-7060-9836-b8ee2e6d9a72",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-12",
+        "project": "Counterpoint 2",
+        "model": "gpt-6-astra",
+        "tokens": 754611,
+        "agentNickname": "Arendt",
+        "rateLimitPercentDelta": 1.0
+      },
+      {
+        "file": "rollout-2026-10-11T20-49-29-01a12e3a-d3ee-7953-be3a-83aa7bd87d98.jsonl",
+        "sessionId": "01a12e3a-d3ee-7953-be3a-83aa7bd87d98",
+        "startDate": "2026-10-12",
+        "endDate": "2026-10-12",
+        "project": "Counterpoint 2",
+        "model": "gpt-6-astra",
+        "tokens": 391270,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 1.0
+      },
+      {
+        "file": "rollout-2026-10-17T15-26-11-01a14bf8-ff68-7c80-ac86-b342aaae964a.jsonl",
+        "sessionId": "01a14bf8-ff68-7c80-ac86-b342aaae964a",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-17",
+        "project": "referenced-chatgpt-conversation-this-is-an",
+        "model": "codex-auto-review",
+        "tokens": 299876,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 0.0
+      },
+      {
+        "file": "rollout-2026-09-29T15-22-16-01a0ef42-ede5-7101-a86c-e98c868c7ba7.jsonl",
+        "sessionId": "01a0ef42-ede5-7101-a86c-e98c868c7ba7",
+        "startDate": "2026-09-29",
+        "endDate": "2026-09-29",
+        "project": "Studying 2",
+        "model": "gpt-6-astra",
+        "tokens": 267609,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 0.0
+      },
+      {
+        "file": "rollout-2026-10-17T15-39-39-01a14c05-5191-7063-9f99-baedd60d14fe.jsonl",
+        "sessionId": "01a14c05-5191-7063-9f99-baedd60d14fe",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-17",
+        "project": "referenced-chatgpt-conversation-this-is-an",
+        "model": "codex-auto-review",
+        "tokens": 253497,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 1.0
+      },
+      {
+        "file": "rollout-2026-10-17T15-07-51-01a14be8-33ab-7ec1-b6f5-c24e43cf2a41.jsonl",
+        "sessionId": "01a14be8-33ab-7ec1-b6f5-c24e43cf2a41",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-17",
+        "project": "referenced-chatgpt-conversation-this-is-an",
+        "model": "codex-auto-review",
+        "tokens": 180590,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 0.0
+      },
+      {
+        "file": "rollout-2026-10-17T15-36-17-01a14c02-3c5d-74c0-a913-d7b181fc13ba.jsonl",
+        "sessionId": "01a14c02-3c5d-74c0-a913-d7b181fc13ba",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-17",
+        "project": "referenced-chatgpt-conversation-this-is-an",
+        "model": "codex-auto-review",
+        "tokens": 116614,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 0.0
+      },
+      {
+        "file": "rollout-2026-10-17T16-06-01-01a14c1d-74a9-7c12-926e-ef76993e2834.jsonl",
+        "sessionId": "01a14c1d-74a9-7c12-926e-ef76993e2834",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-17",
+        "project": "referenced-chatgpt-conversation-this-is-an",
+        "model": "codex-auto-review",
+        "tokens": 60125,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 1.0
+      },
+      {
+        "file": "rollout-2026-10-17T15-27-06-01a14bf9-d60d-72e1-82d3-a5c455b490e0.jsonl",
+        "sessionId": "01a14bf9-d60d-72e1-82d3-a5c455b490e0",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-17",
+        "project": "referenced-chatgpt-conversation-this-is-an",
+        "model": "codex-auto-review",
+        "tokens": 50856,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 0.0
+      },
+      {
+        "file": "rollout-2026-10-17T15-28-04-01a14bfa-b5a7-7162-b2b7-19366ce8829d.jsonl",
+        "sessionId": "01a14bfa-b5a7-7162-b2b7-19366ce8829d",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-17",
+        "project": "referenced-chatgpt-conversation-this-is-an",
+        "model": "codex-auto-review",
+        "tokens": 50633,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 0.0
+      },
+      {
+        "file": "rollout-2026-10-17T16-20-29-01a14c2a-b32c-7bf0-90da-22306121f374.jsonl",
+        "sessionId": "01a14c2a-b32c-7bf0-90da-22306121f374",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-17",
+        "project": "referenced-chatgpt-conversation-this-is-an",
+        "model": "codex-auto-review",
+        "tokens": 45278,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 1.0
+      },
+      {
+        "file": "rollout-2026-10-17T15-28-35-01a14bfb-301f-71d0-a702-cb1426bc96be.jsonl",
+        "sessionId": "01a14bfb-301f-71d0-a702-cb1426bc96be",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-17",
+        "project": "referenced-chatgpt-conversation-this-is-an",
+        "model": "codex-auto-review",
+        "tokens": 38190,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 1.0
+      },
+      {
+        "file": "rollout-2026-10-17T15-07-16-01a14be7-ac87-7fc2-8c9a-02e2a77d1b71.jsonl",
+        "sessionId": "01a14be7-ac87-7fc2-8c9a-02e2a77d1b71",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-17",
+        "project": "referenced-chatgpt-conversation-this-is-an",
+        "model": "codex-auto-review",
+        "tokens": 36404,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 0.0
+      },
+      {
+        "file": "rollout-2026-10-17T15-39-14-01a14c04-f0c5-7523-b8f1-decb791b7e28.jsonl",
+        "sessionId": "01a14c04-f0c5-7523-b8f1-decb791b7e28",
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-17",
+        "project": "referenced-chatgpt-conversation-this-is-an",
+        "model": "codex-auto-review",
+        "tokens": 20424,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 0.0
       }
     ],
     "threadFanouts": [
-      {
-        "parentProject": "Counterpoint 2",
-        "parentStartDate": "2026-08-01",
-        "parentTokens": 562004963,
-        "subagentCount": 11,
-        "subagentTotalTokens": 0,
-        "grandTotalTokens": 562004963,
-        "threadAgeAtFirstSpawnDays": 16,
-        "spawnDates": [
-          "2026-08-17",
-          "2026-08-17",
-          "2026-08-17",
-          "2026-08-17",
-          "2026-08-17",
-          "2026-08-17",
-          "2026-08-17",
-          "2026-08-18",
-          "2026-08-18",
-          "2026-08-18",
-          "2026-08-18"
-        ],
-        "agentNicknames": [
-          "Mencius",
-          "Leibniz",
-          "Raman",
-          "Hypatia",
-          "Rawls",
-          "Avicenna",
-          "Bernoulli",
-          "Schrodinger",
-          "Cicero",
-          "Descartes",
-          "Averroes"
-        ]
-      },
-      {
-        "parentProject": "repos",
-        "parentStartDate": "2026-09-16",
-        "parentTokens": 208958349,
-        "subagentCount": 1,
-        "subagentTotalTokens": 180274,
-        "grandTotalTokens": 209138623,
-        "threadAgeAtFirstSpawnDays": 3,
-        "spawnDates": [
-          "2026-09-19"
-        ],
-        "agentNicknames": [
-          "Averroes"
-        ]
-      },
-      {
-        "parentProject": "Counterpoint 2",
-        "parentStartDate": "2026-08-10",
-        "parentTokens": 124513665,
-        "subagentCount": 3,
-        "subagentTotalTokens": 2965584,
-        "grandTotalTokens": 127479249,
-        "threadAgeAtFirstSpawnDays": 0,
-        "spawnDates": [
-          "2026-08-10",
-          "2026-08-10",
-          "2026-08-10"
-        ],
-        "agentNicknames": [
-          "Jason",
-          "Hume",
-          "Euler"
-        ]
-      },
       {
         "parentProject": "Counterpoint 2",
         "parentStartDate": "2026-10-09",
@@ -2239,35 +582,6 @@
         ],
         "agentNicknames": [
           "Arendt"
-        ]
-      },
-      {
-        "parentProject": "how-do-i-give-you-access",
-        "parentStartDate": "2026-05-18",
-        "parentTokens": 20740655,
-        "subagentCount": 8,
-        "subagentTotalTokens": 0,
-        "grandTotalTokens": 20740655,
-        "threadAgeAtFirstSpawnDays": 80,
-        "spawnDates": [
-          "2026-08-06",
-          "2026-08-06",
-          "2026-08-06",
-          "2026-08-06",
-          "2026-08-06",
-          "2026-08-07",
-          "2026-08-07",
-          "2026-08-07"
-        ],
-        "agentNicknames": [
-          "Kierkegaard",
-          "Hume",
-          "Dalton",
-          "Kant",
-          "Volta",
-          "Bernoulli",
-          "Kuhn",
-          "Newton"
         ]
       }
     ]

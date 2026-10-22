@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T15:00:05.681345+00:00",
+  "generatedAt": "2026-10-22T15:00:05.870852+00:00",
   "claude": {
     "daily": [
       {
@@ -185,6 +185,14 @@
       {
         "date": "2026-10-17",
         "tokens": 61201902
+      },
+      {
+        "date": "2026-10-21",
+        "tokens": 31877
+      },
+      {
+        "date": "2026-10-22",
+        "tokens": 15010764
       }
     ],
     "byModel": [
@@ -194,11 +202,11 @@
       },
       {
         "model": "gpt-6.1-sol",
-        "tokens": 59125648
+        "tokens": 73127870
       },
       {
         "model": "codex-auto-review",
-        "tokens": 2076254
+        "tokens": 3116673
       }
     ],
     "byProject": [
@@ -211,6 +219,10 @@
         "tokens": 61201902
       },
       {
+        "project": "research-the-internet-ma",
+        "tokens": 15010764
+      },
+      {
         "project": "g-p-6ad1ad26e93c81919c3667ff260d16e1",
         "tokens": 11196814
       },
@@ -221,6 +233,10 @@
       {
         "project": "Studying 2",
         "tokens": 267609
+      },
+      {
+        "project": "are",
+        "tokens": 31877
       }
     ],
     "rateLimitHistory": [
@@ -293,14 +309,28 @@
         "planType": "prolite",
         "windowMinutes": 10080,
         "resetsAt": 1792879632
+      },
+      {
+        "date": "2026-10-21",
+        "usedPercent": 0.0,
+        "planType": "prolite",
+        "windowMinutes": 10080,
+        "resetsAt": 1793229551
+      },
+      {
+        "date": "2026-10-22",
+        "usedPercent": 2.0,
+        "planType": "prolite",
+        "windowMinutes": 10080,
+        "resetsAt": 1793229552
       }
     ],
     "currentWindow": {
-      "observedAt": "2026-10-17T23:28:30.626Z",
-      "usedPercent": 7.0,
+      "observedAt": "2026-10-22T03:35:20.951Z",
+      "usedPercent": 2.0,
       "planType": "prolite",
       "windowMinutes": 10080,
-      "resetsAt": 1792879632
+      "resetsAt": 1793229552
     },
     "topSessions": [
       {
@@ -335,6 +365,17 @@
         "tokens": 25801186,
         "agentNickname": null,
         "rateLimitPercentDelta": 13.0
+      },
+      {
+        "file": "rollout-2026-10-21T19-53-52-01a16187-7e8f-7ab3-8a10-c1c71a30e5f4.jsonl",
+        "sessionId": "01a16187-7e8f-7ab3-8a10-c1c71a30e5f4",
+        "startDate": "2026-10-22",
+        "endDate": "2026-10-22",
+        "project": "research-the-internet-ma",
+        "model": "gpt-6.1-sol",
+        "tokens": 13970345,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 2.0
       },
       {
         "file": "rollout-2026-10-14T07-25-50-01a13ace-2385-7173-a8e7-77105a57f79d.jsonl",
@@ -425,6 +466,17 @@
         "rateLimitPercentDelta": 1.0
       },
       {
+        "file": "rollout-2026-10-21T19-54-20-01a16187-eb72-7833-99b6-082e831886d3.jsonl",
+        "sessionId": "01a16187-eb72-7833-99b6-082e831886d3",
+        "startDate": "2026-10-22",
+        "endDate": "2026-10-22",
+        "project": "research-the-internet-ma",
+        "model": "codex-auto-review",
+        "tokens": 485123,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 0.0
+      },
+      {
         "file": "rollout-2026-10-11T20-49-29-01a12e3a-d3ee-7953-be3a-83aa7bd87d98.jsonl",
         "sessionId": "01a12e3a-d3ee-7953-be3a-83aa7bd87d98",
         "startDate": "2026-10-12",
@@ -469,6 +521,17 @@
         "rateLimitPercentDelta": 1.0
       },
       {
+        "file": "rollout-2026-10-21T20-29-07-01a161a7-c70a-7270-8a9f-6bd6e180c913.jsonl",
+        "sessionId": "01a161a7-c70a-7270-8a9f-6bd6e180c913",
+        "startDate": "2026-10-22",
+        "endDate": "2026-10-22",
+        "project": "research-the-internet-ma",
+        "model": "codex-auto-review",
+        "tokens": 211519,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 1.0
+      },
+      {
         "file": "rollout-2026-10-17T15-07-51-01a14be8-33ab-7ec1-b6f5-c24e43cf2a41.jsonl",
         "sessionId": "01a14be8-33ab-7ec1-b6f5-c24e43cf2a41",
         "startDate": "2026-10-17",
@@ -476,6 +539,28 @@
         "project": "referenced-chatgpt-conversation-this-is-an",
         "model": "codex-auto-review",
         "tokens": 180590,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 0.0
+      },
+      {
+        "file": "rollout-2026-10-21T20-32-51-01a161ab-31e9-7ca3-9bdd-358d8dded379.jsonl",
+        "sessionId": "01a161ab-31e9-7ca3-9bdd-358d8dded379",
+        "startDate": "2026-10-22",
+        "endDate": "2026-10-22",
+        "project": "research-the-internet-ma",
+        "model": "codex-auto-review",
+        "tokens": 176484,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 0.0
+      },
+      {
+        "file": "rollout-2026-10-21T20-03-32-01a16190-5b7f-7800-ac53-e08119be0eb8.jsonl",
+        "sessionId": "01a16190-5b7f-7800-ac53-e08119be0eb8",
+        "startDate": "2026-10-22",
+        "endDate": "2026-10-22",
+        "project": "research-the-internet-ma",
+        "model": "codex-auto-review",
+        "tokens": 153337,
         "agentNickname": null,
         "rateLimitPercentDelta": 0.0
       },
@@ -520,50 +605,6 @@
         "project": "referenced-chatgpt-conversation-this-is-an",
         "model": "codex-auto-review",
         "tokens": 50633,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 0.0
-      },
-      {
-        "file": "rollout-2026-10-17T16-20-29-01a14c2a-b32c-7bf0-90da-22306121f374.jsonl",
-        "sessionId": "01a14c2a-b32c-7bf0-90da-22306121f374",
-        "startDate": "2026-10-17",
-        "endDate": "2026-10-17",
-        "project": "referenced-chatgpt-conversation-this-is-an",
-        "model": "codex-auto-review",
-        "tokens": 45278,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 1.0
-      },
-      {
-        "file": "rollout-2026-10-17T15-28-35-01a14bfb-301f-71d0-a702-cb1426bc96be.jsonl",
-        "sessionId": "01a14bfb-301f-71d0-a702-cb1426bc96be",
-        "startDate": "2026-10-17",
-        "endDate": "2026-10-17",
-        "project": "referenced-chatgpt-conversation-this-is-an",
-        "model": "codex-auto-review",
-        "tokens": 38190,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 1.0
-      },
-      {
-        "file": "rollout-2026-10-17T15-07-16-01a14be7-ac87-7fc2-8c9a-02e2a77d1b71.jsonl",
-        "sessionId": "01a14be7-ac87-7fc2-8c9a-02e2a77d1b71",
-        "startDate": "2026-10-17",
-        "endDate": "2026-10-17",
-        "project": "referenced-chatgpt-conversation-this-is-an",
-        "model": "codex-auto-review",
-        "tokens": 36404,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 0.0
-      },
-      {
-        "file": "rollout-2026-10-17T15-39-14-01a14c04-f0c5-7523-b8f1-decb791b7e28.jsonl",
-        "sessionId": "01a14c04-f0c5-7523-b8f1-decb791b7e28",
-        "startDate": "2026-10-17",
-        "endDate": "2026-10-17",
-        "project": "referenced-chatgpt-conversation-this-is-an",
-        "model": "codex-auto-review",
-        "tokens": 20424,
         "agentNickname": null,
         "rateLimitPercentDelta": 0.0
       }

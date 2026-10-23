@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T15:00:05.870852+00:00",
+  "generatedAt": "2026-10-23T15:00:05.674716+00:00",
   "claude": {
     "daily": [
       {
@@ -193,26 +193,30 @@
       {
         "date": "2026-10-22",
         "tokens": 15010764
+      },
+      {
+        "date": "2026-10-23",
+        "tokens": 1874283
       }
     ],
     "byModel": [
       {
         "model": "gpt-6-astra",
-        "tokens": 126098065
+        "tokens": 126165344
       },
       {
         "model": "gpt-6.1-sol",
-        "tokens": 73127870
+        "tokens": 74879419
       },
       {
         "model": "codex-auto-review",
-        "tokens": 3116673
+        "tokens": 3172128
       }
     ],
     "byProject": [
       {
         "project": "Counterpoint 2",
-        "tokens": 111896538
+        "tokens": 113770821
       },
       {
         "project": "referenced-chatgpt-conversation-this-is-an",
@@ -323,14 +327,21 @@
         "planType": "prolite",
         "windowMinutes": 10080,
         "resetsAt": 1793229552
+      },
+      {
+        "date": "2026-10-23",
+        "usedPercent": 1.0,
+        "planType": "prolite",
+        "windowMinutes": 10080,
+        "resetsAt": 1793330815
       }
     ],
     "currentWindow": {
-      "observedAt": "2026-10-22T03:35:20.951Z",
-      "usedPercent": 2.0,
+      "observedAt": "2026-10-23T03:59:16.548Z",
+      "usedPercent": 1.0,
       "planType": "prolite",
       "windowMinutes": 10080,
-      "resetsAt": 1793229552
+      "resetsAt": 1793330815
     },
     "topSessions": [
       {
@@ -359,12 +370,12 @@
         "file": "rollout-2026-10-09T09-04-15-01a12168-700a-7f42-9dc5-7c64c1e29423.jsonl",
         "sessionId": "01a12168-700a-7f42-9dc5-7c64c1e29423",
         "startDate": "2026-10-09",
-        "endDate": "2026-10-16",
+        "endDate": "2026-10-23",
         "project": "Counterpoint 2",
         "model": "gpt-6-astra",
-        "tokens": 25801186,
+        "tokens": 25868465,
         "agentNickname": null,
-        "rateLimitPercentDelta": 13.0
+        "rateLimitPercentDelta": -18.0
       },
       {
         "file": "rollout-2026-10-21T19-53-52-01a16187-7e8f-7ab3-8a10-c1c71a30e5f4.jsonl",
@@ -431,6 +442,17 @@
         "tokens": 2737104,
         "agentNickname": null,
         "rateLimitPercentDelta": 3.0
+      },
+      {
+        "file": "rollout-2026-10-22T20-32-23-01a166d1-1e91-7431-a98e-b9590940cf88.jsonl",
+        "sessionId": "01a166d1-1e91-7431-a98e-b9590940cf88",
+        "startDate": "2026-10-23",
+        "endDate": "2026-10-23",
+        "project": "Counterpoint 2",
+        "model": "gpt-6.1-sol",
+        "tokens": 1751549,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 1.0
       },
       {
         "file": "rollout-2026-10-14T08-43-14-01a13b14-fec8-74c2-ae60-da86a0c42624.jsonl",
@@ -587,26 +609,15 @@
         "rateLimitPercentDelta": 1.0
       },
       {
-        "file": "rollout-2026-10-17T15-27-06-01a14bf9-d60d-72e1-82d3-a5c455b490e0.jsonl",
-        "sessionId": "01a14bf9-d60d-72e1-82d3-a5c455b490e0",
-        "startDate": "2026-10-17",
-        "endDate": "2026-10-17",
-        "project": "referenced-chatgpt-conversation-this-is-an",
+        "file": "rollout-2026-10-22T20-43-02-01a166da-e0b2-7a20-8eea-11b6c57c5d05.jsonl",
+        "sessionId": "01a166da-e0b2-7a20-8eea-11b6c57c5d05",
+        "startDate": "2026-10-23",
+        "endDate": "2026-10-23",
+        "project": "Counterpoint 2",
         "model": "codex-auto-review",
-        "tokens": 50856,
+        "tokens": 55455,
         "agentNickname": null,
-        "rateLimitPercentDelta": 0.0
-      },
-      {
-        "file": "rollout-2026-10-17T15-28-04-01a14bfa-b5a7-7162-b2b7-19366ce8829d.jsonl",
-        "sessionId": "01a14bfa-b5a7-7162-b2b7-19366ce8829d",
-        "startDate": "2026-10-17",
-        "endDate": "2026-10-17",
-        "project": "referenced-chatgpt-conversation-this-is-an",
-        "model": "codex-auto-review",
-        "tokens": 50633,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 0.0
+        "rateLimitPercentDelta": 1.0
       }
     ],
     "threadFanouts": [

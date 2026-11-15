@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T16:01:47.402667+00:00",
+  "generatedAt": "2026-11-15T16:00:04.958204+00:00",
   "claude": {
     "daily": [
       {
@@ -222,16 +222,20 @@
       {
         "date": "2026-11-13",
         "tokens": 73539540
+      },
+      {
+        "date": "2026-11-14",
+        "tokens": 58626894
       }
     ],
     "byModel": [
       {
         "model": "gpt-6.1-sol",
-        "tokens": 673824272
+        "tokens": 724724395
       },
       {
         "model": "codex-auto-review",
-        "tokens": 106938850
+        "tokens": 114665621
       },
       {
         "model": "gpt-5.5",
@@ -245,7 +249,7 @@
     "byProject": [
       {
         "project": "Counterpoint 2",
-        "tokens": 741972465
+        "tokens": 800599359
       },
       {
         "project": "repos",
@@ -406,11 +410,18 @@
         "planType": "prolite",
         "windowMinutes": 10080,
         "resetsAt": 1794540850
+      },
+      {
+        "date": "2026-11-14",
+        "usedPercent": 5.0,
+        "planType": "prolite",
+        "windowMinutes": 10080,
+        "resetsAt": 1795145654
       }
     ],
     "currentWindow": {
-      "observedAt": "2026-11-13T19:12:45.696Z",
-      "usedPercent": 2.0,
+      "observedAt": "2026-11-14T20:36:15.088Z",
+      "usedPercent": 5.0,
       "planType": "prolite",
       "windowMinutes": 10080,
       "resetsAt": 1795145654
@@ -437,6 +448,17 @@
         "tokens": 164740135,
         "agentNickname": null,
         "rateLimitPercentDelta": 23.0
+      },
+      {
+        "file": "rollout-2026-11-12T09-16-40-01a1d0c2-f640-7e10-a558-0906f0b30b90.jsonl",
+        "sessionId": "01a1d0c2-f640-7e10-a558-0906f0b30b90",
+        "startDate": "2026-11-12",
+        "endDate": "2026-11-14",
+        "project": "Counterpoint 2",
+        "model": "gpt-6.1-sol",
+        "tokens": 85317929,
+        "agentNickname": null,
+        "rateLimitPercentDelta": -35.0
       },
       {
         "file": "rollout-2026-11-10T09-20-42-01a1c679-efd2-7ff1-ae15-d1ff110e2b56.jsonl",
@@ -481,17 +503,6 @@
         "tokens": 37278957,
         "agentNickname": null,
         "rateLimitPercentDelta": -31.0
-      },
-      {
-        "file": "rollout-2026-11-12T09-16-40-01a1d0c2-f640-7e10-a558-0906f0b30b90.jsonl",
-        "sessionId": "01a1d0c2-f640-7e10-a558-0906f0b30b90",
-        "startDate": "2026-11-12",
-        "endDate": "2026-11-13",
-        "project": "Counterpoint 2",
-        "model": "gpt-6.1-sol",
-        "tokens": 34417806,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 6.0
       },
       {
         "file": "rollout-2026-10-15T21-51-01-01a1430c-97a1-7f81-b8c4-e3dda2da505b.jsonl",

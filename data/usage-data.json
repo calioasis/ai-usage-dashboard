@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T16:00:05.332756+00:00",
+  "generatedAt": "2026-11-17T16:04:18.470425+00:00",
   "claude": {
     "daily": [
       {
@@ -226,16 +226,24 @@
       {
         "date": "2026-11-14",
         "tokens": 58626894
+      },
+      {
+        "date": "2026-11-16",
+        "tokens": 3308359
+      },
+      {
+        "date": "2026-11-17",
+        "tokens": 46453978
       }
     ],
     "byModel": [
       {
         "model": "gpt-6.1-sol",
-        "tokens": 724724395
+        "tokens": 770374778
       },
       {
         "model": "codex-auto-review",
-        "tokens": 114665621
+        "tokens": 118777575
       },
       {
         "model": "gpt-5.5",
@@ -249,7 +257,7 @@
     "byProject": [
       {
         "project": "Counterpoint 2",
-        "tokens": 800599359
+        "tokens": 850288998
       },
       {
         "project": "repos",
@@ -274,6 +282,10 @@
       {
         "project": "wh",
         "tokens": 212047
+      },
+      {
+        "project": "say",
+        "tokens": 72698
       },
       {
         "project": "how",
@@ -417,11 +429,25 @@
         "planType": "prolite",
         "windowMinutes": 10080,
         "resetsAt": 1795145654
+      },
+      {
+        "date": "2026-11-16",
+        "usedPercent": 6.0,
+        "planType": "prolite",
+        "windowMinutes": 10080,
+        "resetsAt": 1795145654
+      },
+      {
+        "date": "2026-11-17",
+        "usedPercent": 10.0,
+        "planType": "prolite",
+        "windowMinutes": 10080,
+        "resetsAt": 1795145654
       }
     ],
     "currentWindow": {
-      "observedAt": "2026-11-14T20:36:15.088Z",
-      "usedPercent": 5.0,
+      "observedAt": "2026-11-17T06:42:50.700Z",
+      "usedPercent": 10.0,
       "planType": "prolite",
       "windowMinutes": 10080,
       "resetsAt": 1795145654
@@ -516,6 +542,17 @@
         "rateLimitPercentDelta": -4.0
       },
       {
+        "file": "rollout-2026-11-16T09-51-33-01a1e57c-5553-7f80-9691-da97b30f4ded.jsonl",
+        "sessionId": "01a1e57c-5553-7f80-9691-da97b30f4ded",
+        "startDate": "2026-11-16",
+        "endDate": "2026-11-17",
+        "project": "Counterpoint 2",
+        "model": "gpt-6.1-sol",
+        "tokens": 30638683,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 4.0
+      },
+      {
         "file": "rollout-2026-10-09T09-04-15-01a12168-700a-7f42-9dc5-7c64c1e29423.jsonl",
         "sessionId": "01a12168-700a-7f42-9dc5-7c64c1e29423",
         "startDate": "2026-10-09",
@@ -525,6 +562,17 @@
         "tokens": 25868465,
         "agentNickname": null,
         "rateLimitPercentDelta": -18.0
+      },
+      {
+        "file": "rollout-2026-11-16T09-52-56-01a1e57d-98c0-7dd3-bad6-433e3d65bd9d.jsonl",
+        "sessionId": "01a1e57d-98c0-7dd3-bad6-433e3d65bd9d",
+        "startDate": "2026-11-16",
+        "endDate": "2026-11-17",
+        "project": "Counterpoint 2",
+        "model": "gpt-6.1-sol",
+        "tokens": 14522463,
+        "agentNickname": null,
+        "rateLimitPercentDelta": 2.0
       },
       {
         "file": "rollout-2026-11-05T22-40-59-01a1af96-d1d3-7812-8eda-7ca69be5af0b.jsonl",
@@ -679,28 +727,6 @@
         "tokens": 5665441,
         "agentNickname": null,
         "rateLimitPercentDelta": 7.0
-      },
-      {
-        "file": "rollout-2026-11-06T07-49-08-01a1b18c-a993-7802-adf6-cbe582335e2d.jsonl",
-        "sessionId": "01a1b18c-a993-7802-adf6-cbe582335e2d",
-        "startDate": "2026-11-06",
-        "endDate": "2026-11-06",
-        "project": "Counterpoint 2",
-        "model": "codex-auto-review",
-        "tokens": 5595476,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 5.0
-      },
-      {
-        "file": "rollout-2026-11-12T08-53-36-01a1d0ad-d726-7722-b9fd-23daceded245.jsonl",
-        "sessionId": "01a1d0ad-d726-7722-b9fd-23daceded245",
-        "startDate": "2026-11-12",
-        "endDate": "2026-11-12",
-        "project": "Counterpoint 2",
-        "model": "gpt-6.1-sol",
-        "tokens": 5504519,
-        "agentNickname": null,
-        "rateLimitPercentDelta": 1.0
       }
     ],
     "threadFanouts": [

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T16:00:04.366046+00:00",
+  "generatedAt": "2026-11-19T16:00:05.369198+00:00",
   "claude": {
     "daily": [
       {
@@ -237,17 +237,17 @@
       },
       {
         "date": "2026-11-18",
-        "tokens": 47286020
+        "tokens": 48853823
       }
     ],
     "byModel": [
       {
         "model": "gpt-6.1-sol",
-        "tokens": 811042429
+        "tokens": 812567422
       },
       {
         "model": "codex-auto-review",
-        "tokens": 125395944
+        "tokens": 125438754
       },
       {
         "model": "gpt-5.5",
@@ -261,7 +261,7 @@
     "byProject": [
       {
         "project": "Counterpoint 2",
-        "tokens": 897575018
+        "tokens": 899142821
       },
       {
         "project": "repos",
@@ -457,7 +457,7 @@
       }
     ],
     "currentWindow": {
-      "observedAt": "2026-11-18T15:40:01.247Z",
+      "observedAt": "2026-11-18T17:29:28.629Z",
       "usedPercent": 13.0,
       "planType": "prolite",
       "windowMinutes": 10080,
